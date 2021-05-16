@@ -1,0 +1,44 @@
+{
+  "name": "CuestionarioSatisfaccion",
+  "plural": "cuestionariosSatisfaccion",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "Titulo": {
+      "type": "string",
+      "required": true
+    },
+    "Descripcion": {
+      "type": "string"
+    },
+    "Publico": {
+      "type": "boolean",
+      "required": false,
+      "default": false
+    },
+    "Afirmaciones": {
+      "type": [
+        "string"
+      ]
+    },
+    "PreguntasAbiertas": {
+      "type": [
+        "string"
+      ]
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [
+    {
+      "accessType": "WRITE",
+      "principalType": "ROLE",
+      "principalId": "$unauthenticated",
+      "permission": "DENY"
+    }
+  ],
+  "methods": {}
+}

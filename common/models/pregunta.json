@@ -1,0 +1,82 @@
+{
+  "name": "Pregunta",
+  "plural": "Preguntas",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "Titulo": {
+      "type": "string",
+      "required": true
+    },
+    "Tipo": {
+      "type": "string",
+      "required": true
+    },
+    "Pregunta": {
+      "type": "string",
+      "required": true
+    },
+    "Tematica": {
+      "type": "string",
+      "required": true
+    },
+    "Imagen": {
+      "type": "string",
+      "required": false
+    },
+    "FeedbackCorrecto": {
+      "type": "string",
+      "required": true
+    },
+    "FeedbackIncorrecto": {
+      "type": "string",
+      "required": true
+    },
+    "RespuestaCorrecta": {
+      "type": "string",
+      "required": false
+    },
+    "RespuestaIncorrecta1": {
+      "type": "string",
+      "required": false
+    },
+    "RespuestaIncorrecta2": {
+      "type": "string",
+      "required": false
+    },
+    "RespuestaIncorrecta3": {
+      "type": "string",
+      "required": false
+    },
+    "Emparejamientos": {
+      "type": [
+        "object"
+      ],
+      "required": false
+    }
+  },
+  "validations": [],
+  "relations": {
+    "cuestionarios": {
+      "type": "hasMany",
+      "model": "Cuestionario",
+      "foreignKey": "preguntaId",
+      "options": {
+        "nestRemoting": true
+      },
+      "through": "PreguntaDelCuestionario"
+    }
+  },
+  "acls": [
+    {
+      "accessType": "WRITE",
+      "principalType": "ROLE",
+      "principalId": "$unauthenticated",
+      "permission": "DENY"
+    }
+  ],
+  "methods": {}
+}

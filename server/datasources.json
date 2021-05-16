@@ -1,0 +1,19 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory",
+    "file": "./data/users.json"
+  },
+  "baseDatos": {
+    "name": "baseDatos",
+    "localStorage": "",
+    "file": "./data/db.json",
+    "connector": "memory"
+  },
+  "imagenes": {
+    "name": "imagenes",
+    "connector": "loopback-component-storage",
+    "provider": "filesystem",
+    "root": "./server/ficheros"
+  }
+}

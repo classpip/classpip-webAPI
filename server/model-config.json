@@ -1,0 +1,83 @@
+{
+  "_meta": {
+    "sources": [
+      "loopback/common/models",
+      "loopback/server/models",
+      "../common/models",
+      "./models"
+    ],
+    "mixins": [
+      "loopback/common/mixins",
+      "loopback/server/mixins",
+      "../common/mixins",
+      "./mixins"
+    ]
+  },
+  "User": {
+    "dataSource": "db",
+    "public": true
+  },
+  "AccessToken": {
+    "dataSource": "db",
+    "public": false
+  },
+  "ACL": {
+    "dataSource": "db",
+    "public": false
+  },
+  "RoleMapping": {
+    "dataSource": "db",
+    "public": false,
+    "options": {
+      "strictObjectIDCoercion": true
+    }
+  },
+  "Role": {
+    "dataSource": "db",
+    "public": false
+  },
+  "Profesor": {
+    "dataSource": "baseDatos",
+    "public": true
+  },
+  "Coleccion": {
+    "dataSource": "baseDatos",
+    "public": true
+  },
+  "Cromo": {
+    "dataSource": "baseDatos",
+    "public": true
+  },
+  "Cuestionario": {
+    "dataSource": "baseDatos",
+    "public": true
+  },
+  "CuestionarioSatisfaccion": {
+    "dataSource": "baseDatos",
+    "public": true
+  },
+  "Escenario": {
+    "dataSource": "baseDatos",
+    "public": true
+  },
+  "FamiliaAvatares": {
+    "dataSource": "baseDatos",
+    "public": true
+  },
+  "FamiliaImagenesPerfil": {
+    "dataSource": "baseDatos",
+    "public": true
+  },
+  "Pregunta": {
+    "dataSource": "baseDatos",
+    "public": true
+  },
+  "Punto": {
+    "dataSource": "baseDatos",
+    "public": true
+  },
+  "Rubrica": {
+    "dataSource": "baseDatos",
+    "public": true
+  }
+}

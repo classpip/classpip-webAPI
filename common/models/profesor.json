@@ -1,0 +1,105 @@
+{
+  "name": "Profesor",
+  "plural": "Profesores",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "Nombre": {
+      "type": "string",
+      "required": true
+    },
+    "PrimerApellido": {
+      "type": "string",
+      "required": true
+    },
+    "SegundoApellido": {
+      "type": "string",
+      "required": true
+    },
+    "ImagenPerfil": {
+      "type": "string",
+      "required": false
+    },
+    "Identificador": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {
+    "puntos": {
+      "type": "hasMany",
+      "model": "Punto",
+      "foreignKey": "profesorId"
+    },
+    "colecciones": {
+      "type": "hasMany",
+      "model": "Coleccion",
+      "foreignKey": "profesorId"
+    },
+    "preguntas": {
+      "type": "hasMany",
+      "model": "Pregunta",
+      "foreignKey": "profesorId"
+    },
+    "cuestionarios": {
+      "type": "hasMany",
+      "model": "Cuestionario",
+      "foreignKey": "profesorId"
+    },
+    "escenarios": {
+      "type": "hasMany",
+      "model": "Escenario",
+      "foreignKey": "profesorId"
+    },
+    "familiaAvatares": {
+      "type": "hasMany",
+      "model": "FamiliaAvatares",
+      "foreignKey": "profesorId"
+    },
+    "rubricas": {
+      "type": "hasMany",
+      "model": "Rubrica",
+      "foreignKey": "profesorId",
+      "options": {
+        "nestRemoting": true
+      }
+    },
+    "familiasImagenesDePerfil": {
+      "type": "hasMany",
+      "model": "FamiliaImagenesPerfil",
+      "foreignKey": "profesorId"
+    },
+    "cuestionariosSatisfaccion": {
+      "type": "hasMany",
+      "model": "CuestionarioSatisfaccion",
+      "foreignKey": "profesorId"
+    },
+    "userId": {
+      "type": "belongsTo",
+      "model": "User",
+      "foreignKey": "userId",
+      "options": {
+        "nestRemoting": true
+      }
+    }
+  },
+  "acls": [
+    {
+      "accessType": "WRITE",
+      "principalType": "ROLE",
+      "principalId": "$unauthenticated",
+      "permission": "DENY"
+    },
+    {
+      "accessType": "READ",
+      "principalType": "ROLE",
+      "principalId": "$unauthenticated",
+      "permission": "DENY"
+    }
+  ],
+  "methods": {}
+}

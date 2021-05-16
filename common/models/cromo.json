@@ -1,0 +1,42 @@
+{
+  "name": "Cromo",
+  "plural": "Cromos",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "Nombre": {
+      "type": "string",
+      "required": true
+    },
+    "ImagenDelante": {
+      "type": "string",
+      "required": true
+    },
+    "ImagenDetras": {
+      "type": "string",
+      "required": false
+    },
+    "Probabilidad": {
+      "type": "string",
+      "required": true
+    },
+    "Nivel": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [
+    {
+      "accessType": "WRITE",
+      "principalType": "ROLE",
+      "principalId": "$unauthenticated",
+      "permission": "DENY"
+    }
+  ],
+  "methods": {}
+}

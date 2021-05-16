@@ -1,0 +1,46 @@
+{
+  "name": "Coleccion",
+  "plural": "Colecciones",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "Nombre": {
+      "type": "string",
+      "required": true
+    },
+    "ImagenColeccion": {
+      "type": "string",
+      "required": true
+    },
+    "DosCaras": {
+      "type": "boolean",
+      "required": true,
+      "default": false
+    },
+    "Publica": {
+      "type": "boolean",
+      "required": false,
+      "default": false
+    }
+  },
+  "validations": [],
+  "relations": {
+    "cromos": {
+      "type": "hasMany",
+      "model": "Cromo",
+      "foreignKey": "coleccionId"
+    }
+  },
+  "acls": [
+    {
+      "accessType": "WRITE",
+      "principalType": "ROLE",
+      "principalId": "$unauthenticated",
+      "permission": "DENY"
+    }
+  ],
+  "methods": {}
+}

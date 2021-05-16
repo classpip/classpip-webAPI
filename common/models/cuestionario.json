@@ -1,0 +1,45 @@
+{
+  "name": "Cuestionario",
+  "plural": "Cuestionarios",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "Titulo": {
+      "type": "string",
+      "required": true
+    },
+    "Descripcion": {
+      "type": "string",
+      "required": true
+    },
+    "Publico": {
+      "type": "boolean",
+      "required": false,
+      "default": false
+    }
+  },
+  "validations": [],
+  "relations": {
+    "Preguntas": {
+      "type": "hasMany",
+      "model": "Pregunta",
+      "foreignKey": "cuestionarioId",
+      "options": {
+        "nestRemoting": true
+      },
+      "through": "PreguntaDelCuestionario"
+    }
+  },
+  "acls": [
+    {
+      "accessType": "WRITE",
+      "principalType": "ROLE",
+      "principalId": "$unauthenticated",
+      "permission": "DENY"
+    }
+  ],
+  "methods": {}
+}
