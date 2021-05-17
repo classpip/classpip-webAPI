@@ -79,5 +79,9 @@
   "Rubrica": {
     "dataSource": "baseDatos",
     "public": true
+  },
+  "imagen": {
+    "dataSource": "imagenes",
+    "public": true
   }
 }
