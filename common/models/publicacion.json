@@ -1,0 +1,48 @@
+{
+  "name": "Publicacion",
+  "plural": "Publicaciones",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "publicacion": {
+      "type": "string",
+      "required": true
+    },
+    "fecha": {
+      "type": "date"
+    }
+  },
+  "validations": [],
+  "relations": {
+    "autor": {
+      "type": "belongsTo",
+      "model": "Profesor",
+      "foreignKey": "",
+      "options": {
+        "nestRemoting": true
+      }
+    },
+    "comentarios": {
+      "type": "hasMany",
+      "model": "Comentario",
+      "foreignKey": "",
+      "options": {
+        "nestRemoting": true
+      },
+      "through": "Comentario"
+    },
+    "likes": {
+      "type": "hasMany",
+      "model": "Profesor",
+      "foreignKey": "",
+      "options": {
+        "nestRemoting": true
+      }
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

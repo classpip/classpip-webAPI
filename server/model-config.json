@@ -83,5 +83,13 @@
   "imagen": {
     "dataSource": "imagenes",
     "public": true
+  },
+  "Publicacion": {
+    "dataSource": "baseDatos",
+    "public": true
+  },
+  "Comentario": {
+    "dataSource": "baseDatos",
+    "public": true
   }
 }

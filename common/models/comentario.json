@@ -1,0 +1,43 @@
+{
+  "name": "Comentario",
+  "plural": "Comentarios",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "comentario": {
+      "type": "string",
+      "required": true
+    },
+    "fecha": {
+      "type": "date"
+    },
+    "likes": {
+      "type": "number",
+      "default": 0
+    }
+  },
+  "validations": [],
+  "relations": {
+    "autor": {
+      "type": "belongsTo",
+      "model": "Profesor",
+      "foreignKey": "",
+      "options": {
+        "nestRemoting": true
+      }
+    },
+    "publicacionId": {
+      "type": "belongsTo",
+      "model": "Publicacion",
+      "foreignKey": "",
+      "options": {
+        "nestRemoting": true
+      }
+    }
+  },
+  "acls": [],
+  "methods": {}
+}
