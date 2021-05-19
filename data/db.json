@@ -1,6 +1,6 @@
 {
   "ids": {
-    "Profesor": 2,
+    "Profesor": 3,
     "Punto": 7,
     "Coleccion": 5,
     "Cromo": 174,
@@ -12,7 +12,8 @@
   },
   "models": {
     "Profesor": {
-      "1": "{\"Nombre\":\"Ivan\",\"PrimerApellido\":\"Requena\",\"SegundoApellido\":\"Garcia\",\"ImagenPerfil\":null,\"Identificador\":\"24722\",\"id\":1,\"userId\":1}"
+      "1": "{\"Nombre\":\"Ivan\",\"PrimerApellido\":\"Requena\",\"SegundoApellido\":\"Garcia\",\"ImagenPerfil\":null,\"Identificador\":\"24722\",\"id\":1,\"userId\":1}",
+      "2": "{\"Nombre\":\"jordi\",\"PrimerApellido\":\"salvador\",\"SegundoApellido\":\"carrete\",\"ImagenPerfil\":null,\"Identificador\":\"47778\",\"id\":2,\"userId\":2}"
     },
     "Punto": {
       "1": "{\"Nombre\":\"Aleatorio\",\"Descripcion\":\"Asignado de forma aleatoria (se crea automáticamente)\",\"profesorId\":1,\"id\":1}",
@@ -132,18 +133,18 @@
       "231": "{\"Titulo\":\"Sevilla\",\"Tipo\":\"Verdadero o falso\",\"Pregunta\":\"Esta foto es de Barcelona\",\"Tematica\":\"Ciudades\",\"Imagen\":\"sevilla.jpg\",\"FeedbackCorrecto\":\"Correcto.\",\"FeedbackIncorrecto\":\"No. A ver si viajas más.\",\"RespuestaCorrecta\":\"falso\",\"profesorId\":8,\"id\":231}"
     },
     "Cuestionario": {
-        "2": "{\"Titulo\":\"Cuestionario para demos\",\"Descripcion\":\"demo\",\"Publico\":true,\"profesorId\":1,\"id\":2}",
-        "3": "{\"Titulo\":\"Cuestionario TFG\",\"Descripcion\":\"Vamos a probar como funcionan los cuestionarios\",\"Publico\":false,\"profesorId\":1,\"id\":3}",
-        "30": "{\"Titulo\":\"pruieba\",\"Descripcion\":\"demo\",\"Publico\":true,\"profesorId\":1,\"id\":30}",
-        "33": "{\"Titulo\":\"pruieba(copia) retocada por Antonia\",\"Descripcion\":\"demo\",\"Publico\":true,\"profesorId\":3,\"id\":33}",
-        "36": "{\"Titulo\":\"Lo básico de gamificación\",\"Descripcion\":\"Para el taller de gamificación\",\"Publico\":true,\"profesorId\":1,\"id\":36}",
-        "37": "{\"Titulo\":\"Lo básico sobre Gamificación\",\"Descripcion\":\"para el taller de Gamificación\",\"Publico\":true,\"profesorId\":8,\"id\":37}",
-        "38": "{\"Titulo\":\"Cuestionario imagen \",\"Descripcion\":\"Cuestionario de prueba para ver si la imagen se ve en la app\",\"Publico\":false,\"profesorId\":10,\"id\":38}",
-        "41": "{\"Titulo\":\"Gamifiacion\",\"Descripcion\":\"gamificacion\",\"Publico\":false,\"profesorId\":8,\"id\":41}",
-        "44": "{\"Titulo\":\"Cuatro tipos de preguntas\",\"Descripcion\":\"cuatro tipos\",\"Publico\":false,\"profesorId\":8,\"id\":44}",
-        "45": "{\"Titulo\":\"ffd\",\"Descripcion\":\"ff\",\"Publico\":false,\"profesorId\":8,\"id\":45}",
-        "46": "{\"Titulo\":\"sd\",\"Descripcion\":\"d\",\"Publico\":false,\"profesorId\":8,\"id\":46}",
-        "47": "{\"Titulo\":\"ds\",\"Descripcion\":\"d\",\"Publico\":false,\"profesorId\":8,\"id\":47}"
+      "2": "{\"Titulo\":\"Cuestionario para demos\",\"Descripcion\":\"demo\",\"Publico\":true,\"profesorId\":1,\"id\":2}",
+      "3": "{\"Titulo\":\"Cuestionario TFG\",\"Descripcion\":\"Vamos a probar como funcionan los cuestionarios\",\"Publico\":false,\"profesorId\":1,\"id\":3}",
+      "30": "{\"Titulo\":\"pruieba\",\"Descripcion\":\"demo\",\"Publico\":true,\"profesorId\":1,\"id\":30}",
+      "33": "{\"Titulo\":\"pruieba(copia) retocada por Antonia\",\"Descripcion\":\"demo\",\"Publico\":true,\"profesorId\":3,\"id\":33}",
+      "36": "{\"Titulo\":\"Lo básico de gamificación\",\"Descripcion\":\"Para el taller de gamificación\",\"Publico\":true,\"profesorId\":1,\"id\":36}",
+      "37": "{\"Titulo\":\"Lo básico sobre Gamificación\",\"Descripcion\":\"para el taller de Gamificación\",\"Publico\":true,\"profesorId\":8,\"id\":37}",
+      "38": "{\"Titulo\":\"Cuestionario imagen \",\"Descripcion\":\"Cuestionario de prueba para ver si la imagen se ve en la app\",\"Publico\":false,\"profesorId\":10,\"id\":38}",
+      "41": "{\"Titulo\":\"Gamifiacion\",\"Descripcion\":\"gamificacion\",\"Publico\":false,\"profesorId\":8,\"id\":41}",
+      "44": "{\"Titulo\":\"Cuatro tipos de preguntas\",\"Descripcion\":\"cuatro tipos\",\"Publico\":false,\"profesorId\":8,\"id\":44}",
+      "45": "{\"Titulo\":\"ffd\",\"Descripcion\":\"ff\",\"Publico\":false,\"profesorId\":8,\"id\":45}",
+      "46": "{\"Titulo\":\"sd\",\"Descripcion\":\"d\",\"Publico\":false,\"profesorId\":8,\"id\":46}",
+      "47": "{\"Titulo\":\"ds\",\"Descripcion\":\"d\",\"Publico\":false,\"profesorId\":8,\"id\":47}"
     },
     "PreguntaDelCuestionario": {
       "4": "{\"preguntaId\":4,\"cuestionarioId\":2,\"id\":4}",
