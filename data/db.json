@@ -8,7 +8,9 @@
     "Pregunta": 232,
     "Cuestionario": 48,
     "PreguntaDelCuestionario": 135,
-    "FamiliaAvatares": 51
+    "FamiliaAvatares": 51,
+    "Publicacion": 1,
+    "Comentario": 1
   },
   "models": {
     "Profesor": {
@@ -132,18 +134,18 @@
       "231": "{\"Titulo\":\"Sevilla\",\"Tipo\":\"Verdadero o falso\",\"Pregunta\":\"Esta foto es de Barcelona\",\"Tematica\":\"Ciudades\",\"Imagen\":\"sevilla.jpg\",\"FeedbackCorrecto\":\"Correcto.\",\"FeedbackIncorrecto\":\"No. A ver si viajas más.\",\"RespuestaCorrecta\":\"falso\",\"profesorId\":18,\"id\":231}"
     },
     "Cuestionario": {
-        "2": "{\"Titulo\":\"Cuestionario para demos\",\"Descripcion\":\"demo\",\"Publico\":true,\"profesorId\":1,\"id\":2}",
-        "3": "{\"Titulo\":\"Cuestionario TFG\",\"Descripcion\":\"Vamos a probar como funcionan los cuestionarios\",\"Publico\":false,\"profesorId\":1,\"id\":3}",
-        "30": "{\"Titulo\":\"pruieba\",\"Descripcion\":\"demo\",\"Publico\":true,\"profesorId\":1,\"id\":30}",
-        "33": "{\"Titulo\":\"pruieba(copia) retocada por Antonia\",\"Descripcion\":\"demo\",\"Publico\":true,\"profesorId\":13,\"id\":33}",
-        "36": "{\"Titulo\":\"Lo básico de gamificación\",\"Descripcion\":\"Para el taller de gamificación\",\"Publico\":true,\"profesorId\":1,\"id\":36}",
-        "37": "{\"Titulo\":\"Lo básico sobre Gamificación\",\"Descripcion\":\"para el taller de Gamificación\",\"Publico\":true,\"profesorId\":18,\"id\":37}",
-        "38": "{\"Titulo\":\"Cuestionario imagen \",\"Descripcion\":\"Cuestionario de prueba para ver si la imagen se ve en la app\",\"Publico\":false,\"profesorId\":10,\"id\":38}",
-        "41": "{\"Titulo\":\"Gamifiacion\",\"Descripcion\":\"gamificacion\",\"Publico\":false,\"profesorId\":18,\"id\":41}",
-        "44": "{\"Titulo\":\"Cuatro tipos de preguntas\",\"Descripcion\":\"cuatro tipos\",\"Publico\":false,\"profesorId\":18,\"id\":44}",
-        "45": "{\"Titulo\":\"ffd\",\"Descripcion\":\"ff\",\"Publico\":false,\"profesorId\":18,\"id\":45}",
-        "46": "{\"Titulo\":\"sd\",\"Descripcion\":\"d\",\"Publico\":false,\"profesorId\":18,\"id\":46}",
-        "47": "{\"Titulo\":\"ds\",\"Descripcion\":\"d\",\"Publico\":false,\"profesorId\":18,\"id\":47}"
+      "2": "{\"Titulo\":\"Cuestionario para demos\",\"Descripcion\":\"demo\",\"Publico\":true,\"profesorId\":1,\"id\":2}",
+      "3": "{\"Titulo\":\"Cuestionario TFG\",\"Descripcion\":\"Vamos a probar como funcionan los cuestionarios\",\"Publico\":false,\"profesorId\":1,\"id\":3}",
+      "30": "{\"Titulo\":\"pruieba\",\"Descripcion\":\"demo\",\"Publico\":true,\"profesorId\":1,\"id\":30}",
+      "33": "{\"Titulo\":\"pruieba(copia) retocada por Antonia\",\"Descripcion\":\"demo\",\"Publico\":true,\"profesorId\":13,\"id\":33}",
+      "36": "{\"Titulo\":\"Lo básico de gamificación\",\"Descripcion\":\"Para el taller de gamificación\",\"Publico\":true,\"profesorId\":1,\"id\":36}",
+      "37": "{\"Titulo\":\"Lo básico sobre Gamificación\",\"Descripcion\":\"para el taller de Gamificación\",\"Publico\":true,\"profesorId\":18,\"id\":37}",
+      "38": "{\"Titulo\":\"Cuestionario imagen \",\"Descripcion\":\"Cuestionario de prueba para ver si la imagen se ve en la app\",\"Publico\":false,\"profesorId\":10,\"id\":38}",
+      "41": "{\"Titulo\":\"Gamifiacion\",\"Descripcion\":\"gamificacion\",\"Publico\":false,\"profesorId\":18,\"id\":41}",
+      "44": "{\"Titulo\":\"Cuatro tipos de preguntas\",\"Descripcion\":\"cuatro tipos\",\"Publico\":false,\"profesorId\":18,\"id\":44}",
+      "45": "{\"Titulo\":\"ffd\",\"Descripcion\":\"ff\",\"Publico\":false,\"profesorId\":18,\"id\":45}",
+      "46": "{\"Titulo\":\"sd\",\"Descripcion\":\"d\",\"Publico\":false,\"profesorId\":18,\"id\":46}",
+      "47": "{\"Titulo\":\"ds\",\"Descripcion\":\"d\",\"Publico\":false,\"profesorId\":18,\"id\":47}"
     },
     "PreguntaDelCuestionario": {
       "4": "{\"preguntaId\":4,\"cuestionarioId\":2,\"id\":4}",
@@ -224,6 +226,9 @@
       "48": "{\"id\":48,\"profesorId\":1,\"NombreFamilia\":\"Cuenta 2\",\"Publica\":true,\"Silueta\":\"cuenta_fondo.png\",\"NombreComplemento1\":\"escenas\",\"Complemento1\":[\"montana1.png\",\"marte2.png\",\"ciudad2.png\",\"playa2.png\",\"rio1.png\"],\"NombreComplemento2\":\"personajes izquierda\",\"Complemento2\":[\"pI_6.png\",\"pI_7.png\",\"pI_8.png\",\"pI_9.png\",\"pI_10.png\"],\"NombreComplemento3\":\"personajes derecha\",\"Complemento3\":[\"pD_6.png\",\"pD_7.png\",\"pD_8.png\",\"pD_9.png\",\"pD_10.png\"],\"NombreComplemento4\":\"complementos\",\"Complemento4\":[\"c_3.png\",\"c_4.png\",\"c_8.png\",\"c_12.png\",\"c_14.png\"]}",
       "49": "{\"id\":49,\"profesorId\":1,\"NombreFamilia\":\"Cuenta 3\",\"Publica\":true,\"Silueta\":\"cuenta_fondo.png\",\"NombreComplemento1\":\"escenas\",\"Complemento1\":[\"desierto2.png\",\"montana2.png\",\"parque1.png\",\"piscina1.png\",\"selva1.png\"],\"NombreComplemento2\":\"personajes izquierda\",\"Complemento2\":[\"pI_11.png\",\"pI_12.png\",\"pI_13.png\",\"pI_14.png\",\"pI_15.png\"],\"NombreComplemento3\":\"personajes derecha\",\"Complemento3\":[\"pD_11.png\",\"pD_12.png\",\"pD_13.png\",\"pD_14.png\",\"pD_15.png\"],\"NombreComplemento4\":\"complementos\",\"Complemento4\":[\"c_5.png\",\"c_10.png\",\"c_11.png\",\"c_13.png\",\"c_15.png\"]}",
       "50": "{\"profesorId\":1,\"NombreFamilia\":\"Roberta\",\"Publica\":false,\"Silueta\":\"roberta_silueta.png\",\"NombreComplemento1\":\"monstruos\",\"Complemento1\":[\"roberta_monstruo1.png\",\"roberta_monstruo2.png\",\"roberta_monstruo3.png\",\"roberta_monstruo4.png\",\"roberta_monstruo5.png\"],\"NombreComplemento2\":\"pelos\",\"Complemento2\":[\"roberta_pelo1.png\",\"roberta_pelo2.png\",\"roberta_pelo3.png\",\"roberta_pelo4.png\",\"roberta_pelo5.png\"],\"NombreComplemento3\":\"bocas\",\"Complemento3\":[\"roberta_boca1.png\",\"roberta_boca2.png\",\"roberta_boca3.png\",\"roberta_boca4.png\",\"roberta_boca5.png\"],\"NombreComplemento4\":\"ojos\",\"Complemento4\":[\"roberta_ojos1.png\",\"roberta_ojos2.png\",\"roberta_ojos3.png\",\"roberta_ojos4.png\",\"roberta_ojos5.png\"],\"id\":50}"
-    }
+    },
+    "Publicacion": {
+    },
+    "Comentario": {}
   }
 }
