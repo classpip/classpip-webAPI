@@ -1,17 +1,21 @@
 {
   "ids": {
-    "User": 2,
-    "AccessToken": 2,
+    "User": 3,
+    "AccessToken": 5,
     "ACL": 1,
     "RoleMapping": 1,
     "Role": 1
   },
   "models": {
     "User": {
-      "1": "{\"username\":\"ivan\",\"password\":\"$2a$10$u0Jd1l82HZzRFGdiQd4ds.RO7pc38LsUYEeQgtngmIgkN17CcSLLu\",\"email\":\"ivan.requena@estudiantat.upc.edu\",\"id\":1}"
+      "1": "{\"username\":\"ivan\",\"password\":\"$2a$10$u0Jd1l82HZzRFGdiQd4ds.RO7pc38LsUYEeQgtngmIgkN17CcSLLu\",\"email\":\"ivan.requena@estudiantat.upc.edu\",\"id\":1}",
+      "2": "{\"username\":\"jota\",\"password\":\"$2a$10$wwvxs/0Hb/Mf0sPxMsLN4e8lTDgZAbp9l3cmlML0YoVh4meL5OmvC\",\"email\":\"jordi@jordi.com\",\"id\":2}"
     },
     "AccessToken": {
-      "AyA5limGimkZhnww9Xtr7HT9LAVqCqOqoKix1civW7oSjOkAsAYoPd6786RL3Gmz": "{\"id\":\"AyA5limGimkZhnww9Xtr7HT9LAVqCqOqoKix1civW7oSjOkAsAYoPd6786RL3Gmz\",\"ttl\":1209600,\"created\":\"2021-05-15T19:43:08.052Z\",\"userId\":1}"
+      "AyA5limGimkZhnww9Xtr7HT9LAVqCqOqoKix1civW7oSjOkAsAYoPd6786RL3Gmz": "{\"id\":\"AyA5limGimkZhnww9Xtr7HT9LAVqCqOqoKix1civW7oSjOkAsAYoPd6786RL3Gmz\",\"ttl\":1209600,\"created\":\"2021-05-15T19:43:08.052Z\",\"userId\":1}",
+      "ARrrd3pWpliKHKk0poAgJMqAGKAkcgJS46zx8lRBwq4q0RMqrcOPonF52GGxWrIT": "{\"id\":\"ARrrd3pWpliKHKk0poAgJMqAGKAkcgJS46zx8lRBwq4q0RMqrcOPonF52GGxWrIT\",\"ttl\":1209600,\"created\":\"2021-05-17T18:27:42.055Z\",\"userId\":2}",
+      "bRm9ZEzbI5uBqw7z7l2YwjDOtCtv7rREt1LQ9DdEwVp3pyFlxDymFxGAZeTBRUwB": "{\"id\":\"bRm9ZEzbI5uBqw7z7l2YwjDOtCtv7rREt1LQ9DdEwVp3pyFlxDymFxGAZeTBRUwB\",\"ttl\":1209600,\"created\":\"2021-05-17T18:31:39.063Z\",\"userId\":2}",
+      "HQl9AgBIDOheeRTWybtqAm5m1NaFXWjirxgGEuiS5fgAzDZ0X9ybNZZC9tuiNSDh": "{\"id\":\"HQl9AgBIDOheeRTWybtqAm5m1NaFXWjirxgGEuiS5fgAzDZ0X9ybNZZC9tuiNSDh\",\"ttl\":1209600,\"created\":\"2021-05-17T18:58:38.928Z\",\"userId\":2}"
     },
     "ACL": {},
     "RoleMapping": {},
