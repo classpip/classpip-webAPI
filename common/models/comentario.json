@@ -8,8 +8,7 @@
   },
   "properties": {
     "comentario": {
-      "type": "string",
-      "required": true
+      "type": "string"
     },
     "fecha": {
       "type": "date"
@@ -17,6 +16,9 @@
     "likes": {
       "type": "number",
       "default": 0
+    },
+    "publicacionId": {
+      "type": "number"
     }
   },
   "validations": [],
@@ -24,14 +26,6 @@
     "autor": {
       "type": "belongsTo",
       "model": "Profesor",
-      "foreignKey": "",
-      "options": {
-        "nestRemoting": true
-      }
-    },
-    "publicacionId": {
-      "type": "belongsTo",
-      "model": "Publicacion",
       "foreignKey": "",
       "options": {
         "nestRemoting": true

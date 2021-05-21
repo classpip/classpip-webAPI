@@ -7,6 +7,10 @@
     "validateUpsert": true
   },
   "properties": {
+    "titulo": {
+      "type": "string",
+      "required": true
+    },
     "publicacion": {
       "type": "string",
       "required": true
