@@ -10,8 +10,8 @@
     "PreguntaDelCuestionario": 135,
     "FamiliaAvatares": 51,
     "FamiliaImagenesPerfil": 11,
-    "Publicacion": 6,
-    "Comentario": 9
+    "Publicacion": 9,
+    "Comentario": 11
   },
   "models": {
     "Profesor": {
@@ -246,7 +246,10 @@
       "2": "{\"titulo\":\"PRUEBA 2 WEB\",\"publicacion\":\"esta es la primera publi que se envía desde la web\",\"fecha\":\"2021-05-21T18:43:49.994Z\",\"autorId\":1,\"id\":2}",
       "3": "{\"titulo\":\"xd\",\"publicacion\":\"jijiji\",\"fecha\":\"2021-05-21T19:14:02.005Z\",\"autorId\":1,\"id\":3}",
       "4": "{\"titulo\":\"jfj\",\"publicacion\":\"refdgfqwsa\",\"fecha\":\"2021-05-21T19:14:46.913Z\",\"autorId\":1,\"id\":4}",
-      "5": "{\"titulo\":\"juju\",\"publicacion\":\"jaja\",\"fecha\":\"2021-05-21T19:16:32.902Z\",\"autorId\":1,\"id\":5}"
+      "5": "{\"titulo\":\"juju\",\"publicacion\":\"jaja\",\"fecha\":\"2021-05-21T19:16:32.902Z\",\"autorId\":1,\"id\":5}",
+      "6": "{\"titulo\":\"titulo\",\"publicacion\":\"hola, esta es mi primera vez en classpip\",\"fecha\":\"2021-05-23T15:50:57.907Z\",\"autorId\":1,\"id\":6}",
+      "7": "{\"titulo\":\"xd\",\"publicacion\":\"xd\",\"fecha\":\"2021-05-23T15:51:58.412Z\",\"autorId\":1,\"id\":7}",
+      "8": "{\"titulo\":\"que pasa loco\",\"publicacion\":\"hoy ha venido la sara a mi casa y me he dado cuenta de que es más tonta de lo que pensaba\",\"fecha\":\"2021-05-23T15:53:17.767Z\",\"autorId\":1,\"id\":8}"
     },
     "Comentario": {
       "1": "{\"comentario\":\"y este el primer comentario\",\"fecha\":\"2021-05-21T18:54:01.066Z\",\"likes\":0,\"publicacionId\":2,\"autorId\":1,\"id\":1}",
@@ -256,7 +259,9 @@
       "5": "{\"comentario\":\"jij\",\"fecha\":\"2021-05-21T19:09:07.304Z\",\"likes\":0,\"publicacionId\":2,\"autorId\":1,\"id\":5}",
       "6": "{\"likes\":0,\"undefined\":5,\"id\":6}",
       "7": "{\"comentario\":\"rtflv\",\"fecha\":\"2021-05-21T19:12:23.726Z\",\"likes\":0,\"publicacionId\":1,\"autorId\":1,\"id\":7}",
-      "8": "{\"likes\":0,\"undefined\":7,\"id\":8}"
+      "8": "{\"likes\":0,\"undefined\":7,\"id\":8}",
+      "9": "{\"comentario\":\"que dices tia\",\"fecha\":\"2021-05-23T15:53:59.274Z\",\"likes\":0,\"publicacionId\":8,\"autorId\":1,\"id\":9}",
+      "10": "{\"likes\":0,\"undefined\":9,\"id\":10}"
     }
   }
 }
