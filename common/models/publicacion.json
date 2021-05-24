@@ -29,21 +29,21 @@
         "nestRemoting": true
       }
     },
-    "comentarios": {
-      "type": "hasMany",
-      "model": "Comentario",
-      "foreignKey": "",
-      "options": {
-        "nestRemoting": true
-      },
-      "through": "Comentario"
-    },
     "likes": {
       "type": "hasMany",
       "model": "Profesor",
       "foreignKey": "",
       "options": {
         "nestRemoting": true
+      }
+    },
+    "comentarios": {
+      "type": "hasMany",
+      "model": "Comentario",
+      "foreignKey": "",
+      "options": {
+        "nestRemoting": true,
+        "disableInclude": true
       }
     }
   },

@@ -1,6 +1,6 @@
 {
   "ids": {
-    "Profesor": 3,
+    "Profesor": 13,
     "Punto": 7,
     "Coleccion": 5,
     "Cromo": 174,
@@ -10,13 +10,23 @@
     "PreguntaDelCuestionario": 135,
     "FamiliaAvatares": 51,
     "FamiliaImagenesPerfil": 11,
-    "Publicacion": 9,
-    "Comentario": 11
+    "Publicacion": 2,
+    "Comentario": 2
   },
   "models": {
     "Profesor": {
       "1": "{\"Nombre\":\"Ivan\",\"PrimerApellido\":\"Requena\",\"SegundoApellido\":\"Garcia\",\"ImagenPerfil\":null,\"Identificador\":\"24722\",\"id\":1,\"userId\":1}",
-      "2": "{\"Nombre\":\"jordi\",\"PrimerApellido\":\"salvador\",\"SegundoApellido\":\"carrete\",\"ImagenPerfil\":null,\"Identificador\":\"47778\",\"id\":2,\"userId\":2}"
+      "2": "{\"Nombre\":\"jordi\",\"PrimerApellido\":\"salvador\",\"SegundoApellido\":\"carrete\",\"ImagenPerfil\":null,\"Identificador\":\"47778\",\"id\":2,\"userId\":2}",
+      "3": "{\"Nombre\":\"Ivan\",\"PrimerApellido\":\"Requena\",\"SegundoApellido\":\"Garcia\",\"ImagenPerfil\":null,\"Identificador\":\"24722\",\"publicacionId\":1,\"userId\":1,\"id\":3}",
+      "4": "{\"Nombre\":\"Ivan\",\"PrimerApellido\":\"Requena\",\"SegundoApellido\":\"Garcia\",\"ImagenPerfil\":null,\"Identificador\":\"24722\",\"id\":4,\"publicacionId\":1,\"userId\":1}",
+      "5": "{\"Nombre\":\"Ivan\",\"PrimerApellido\":\"Requena\",\"SegundoApellido\":\"Garcia\",\"ImagenPerfil\":null,\"Identificador\":\"24722\",\"id\":5,\"publicacionId\":1,\"userId\":1}",
+      "6": "{\"Nombre\":\"Ivan\",\"PrimerApellido\":\"Requena\",\"SegundoApellido\":\"Garcia\",\"ImagenPerfil\":null,\"Identificador\":\"24722\",\"id\":6,\"publicacionId\":1,\"userId\":1}",
+      "7": "{\"Nombre\":\"Ivan\",\"PrimerApellido\":\"Requena\",\"SegundoApellido\":\"Garcia\",\"ImagenPerfil\":null,\"Identificador\":\"24722\",\"id\":7,\"publicacionId\":1,\"userId\":1}",
+      "8": "{\"Nombre\":\"Ivan\",\"PrimerApellido\":\"Requena\",\"SegundoApellido\":\"Garcia\",\"ImagenPerfil\":null,\"Identificador\":\"24722\",\"id\":8,\"publicacionId\":1,\"userId\":1}",
+      "9": "{\"Nombre\":\"Ivan\",\"PrimerApellido\":\"Requena\",\"SegundoApellido\":\"Garcia\",\"ImagenPerfil\":null,\"Identificador\":\"24722\",\"id\":9,\"publicacionId\":1,\"userId\":1}",
+      "10": "{\"Nombre\":\"Ivan\",\"PrimerApellido\":\"Requena\",\"SegundoApellido\":\"Garcia\",\"ImagenPerfil\":null,\"Identificador\":\"24722\",\"id\":10,\"publicacionId\":3,\"userId\":1}",
+      "11": "{\"Nombre\":\"Ivan\",\"PrimerApellido\":\"Requena\",\"SegundoApellido\":\"Garcia\",\"ImagenPerfil\":null,\"Identificador\":\"24722\",\"id\":11,\"publicacionId\":3,\"userId\":1}",
+      "12": "{\"Nombre\":\"Ivan\",\"PrimerApellido\":\"Requena\",\"SegundoApellido\":\"Garcia\",\"ImagenPerfil\":null,\"Identificador\":\"24722\",\"id\":12,\"publicacionId\":3,\"userId\":1}"
     },
     "Punto": {
       "1": "{\"Nombre\":\"Aleatorio\",\"Descripcion\":\"Asignado de forma aleatoria (se crea automáticamente)\",\"profesorId\":1,\"id\":1}",
@@ -242,26 +252,10 @@
       "50": "{\"profesorId\":1,\"NombreFamilia\":\"Roberta\",\"Publica\":false,\"Silueta\":\"roberta_silueta.png\",\"NombreComplemento1\":\"monstruos\",\"Complemento1\":[\"roberta_monstruo1.png\",\"roberta_monstruo2.png\",\"roberta_monstruo3.png\",\"roberta_monstruo4.png\",\"roberta_monstruo5.png\"],\"NombreComplemento2\":\"pelos\",\"Complemento2\":[\"roberta_pelo1.png\",\"roberta_pelo2.png\",\"roberta_pelo3.png\",\"roberta_pelo4.png\",\"roberta_pelo5.png\"],\"NombreComplemento3\":\"bocas\",\"Complemento3\":[\"roberta_boca1.png\",\"roberta_boca2.png\",\"roberta_boca3.png\",\"roberta_boca4.png\",\"roberta_boca5.png\"],\"NombreComplemento4\":\"ojos\",\"Complemento4\":[\"roberta_ojos1.png\",\"roberta_ojos2.png\",\"roberta_ojos3.png\",\"roberta_ojos4.png\",\"roberta_ojos5.png\"],\"id\":50}"
     },
     "Publicacion": {
-      "1": "{\"titulo\":\"PRUEBA 1\",\"publicacion\":\"prueba publicacion 1\",\"fecha\":\"2021-05-20T19:06:02.236Z\",\"autorId\":1,\"id\":1}",
-      "2": "{\"titulo\":\"PRUEBA 2 WEB\",\"publicacion\":\"esta es la primera publi que se envía desde la web\",\"fecha\":\"2021-05-21T18:43:49.994Z\",\"autorId\":1,\"id\":2}",
-      "3": "{\"titulo\":\"xd\",\"publicacion\":\"jijiji\",\"fecha\":\"2021-05-21T19:14:02.005Z\",\"autorId\":1,\"id\":3}",
-      "4": "{\"titulo\":\"jfj\",\"publicacion\":\"refdgfqwsa\",\"fecha\":\"2021-05-21T19:14:46.913Z\",\"autorId\":1,\"id\":4}",
-      "5": "{\"titulo\":\"juju\",\"publicacion\":\"jaja\",\"fecha\":\"2021-05-21T19:16:32.902Z\",\"autorId\":1,\"id\":5}",
-      "6": "{\"titulo\":\"titulo\",\"publicacion\":\"hola, esta es mi primera vez en classpip\",\"fecha\":\"2021-05-23T15:50:57.907Z\",\"autorId\":1,\"id\":6}",
-      "7": "{\"titulo\":\"xd\",\"publicacion\":\"xd\",\"fecha\":\"2021-05-23T15:51:58.412Z\",\"autorId\":1,\"id\":7}",
-      "8": "{\"titulo\":\"que pasa loco\",\"publicacion\":\"hoy ha venido la sara a mi casa y me he dado cuenta de que es más tonta de lo que pensaba\",\"fecha\":\"2021-05-23T15:53:17.767Z\",\"autorId\":1,\"id\":8}"
+      "1": "{\"titulo\":\"PRUEBA 1 WEB\",\"publicacion\":\"Esta es la primera publicación de prueba\",\"fecha\":\"2021-05-24T01:04:59.490Z\",\"autorId\":1,\"id\":1}"
     },
     "Comentario": {
-      "1": "{\"comentario\":\"y este el primer comentario\",\"fecha\":\"2021-05-21T18:54:01.066Z\",\"likes\":0,\"publicacionId\":2,\"autorId\":1,\"id\":1}",
-      "2": "{\"likes\":0,\"undefined\":1,\"id\":2}",
-      "3": "{\"comentario\":\"ola\",\"fecha\":\"2021-05-21T19:06:34.885Z\",\"likes\":0,\"publicacionId\":2,\"autorId\":1,\"id\":3}",
-      "4": "{\"likes\":0,\"undefined\":3,\"id\":4}",
-      "5": "{\"comentario\":\"jij\",\"fecha\":\"2021-05-21T19:09:07.304Z\",\"likes\":0,\"publicacionId\":2,\"autorId\":1,\"id\":5}",
-      "6": "{\"likes\":0,\"undefined\":5,\"id\":6}",
-      "7": "{\"comentario\":\"rtflv\",\"fecha\":\"2021-05-21T19:12:23.726Z\",\"likes\":0,\"publicacionId\":1,\"autorId\":1,\"id\":7}",
-      "8": "{\"likes\":0,\"undefined\":7,\"id\":8}",
-      "9": "{\"comentario\":\"que dices tia\",\"fecha\":\"2021-05-23T15:53:59.274Z\",\"likes\":0,\"publicacionId\":8,\"autorId\":1,\"id\":9}",
-      "10": "{\"likes\":0,\"undefined\":9,\"id\":10}"
+      "1": "{\"comentario\":\"Te la comento aver que tal va\",\"fecha\":\"2021-05-24T01:06:08.794Z\",\"likes\":0,\"autorId\":1,\"publicacionId\":1,\"id\":1}"
     }
   }
 }

@@ -16,9 +16,6 @@
     "likes": {
       "type": "number",
       "default": 0
-    },
-    "publicacionId": {
-      "type": "number"
     }
   },
   "validations": [],
@@ -28,7 +25,8 @@
       "model": "Profesor",
       "foreignKey": "",
       "options": {
-        "nestRemoting": true
+        "nestRemoting": true,
+        "disableInclude": true
       }
     }
   },
