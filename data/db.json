@@ -1,6 +1,6 @@
 {
   "ids": {
-    "Profesor": 13,
+    "Profesor": 15,
     "Punto": 7,
     "Coleccion": 5,
     "Cromo": 174,
@@ -10,7 +10,7 @@
     "PreguntaDelCuestionario": 135,
     "FamiliaAvatares": 51,
     "FamiliaImagenesPerfil": 11,
-    "Publicacion": 2,
+    "Publicacion": 4,
     "Comentario": 2
   },
   "models": {
@@ -26,7 +26,9 @@
       "9": "{\"Nombre\":\"Ivan\",\"PrimerApellido\":\"Requena\",\"SegundoApellido\":\"Garcia\",\"ImagenPerfil\":null,\"Identificador\":\"24722\",\"id\":9,\"publicacionId\":1,\"userId\":1}",
       "10": "{\"Nombre\":\"Ivan\",\"PrimerApellido\":\"Requena\",\"SegundoApellido\":\"Garcia\",\"ImagenPerfil\":null,\"Identificador\":\"24722\",\"id\":10,\"publicacionId\":3,\"userId\":1}",
       "11": "{\"Nombre\":\"Ivan\",\"PrimerApellido\":\"Requena\",\"SegundoApellido\":\"Garcia\",\"ImagenPerfil\":null,\"Identificador\":\"24722\",\"id\":11,\"publicacionId\":3,\"userId\":1}",
-      "12": "{\"Nombre\":\"Ivan\",\"PrimerApellido\":\"Requena\",\"SegundoApellido\":\"Garcia\",\"ImagenPerfil\":null,\"Identificador\":\"24722\",\"id\":12,\"publicacionId\":3,\"userId\":1}"
+      "12": "{\"Nombre\":\"Ivan\",\"PrimerApellido\":\"Requena\",\"SegundoApellido\":\"Garcia\",\"ImagenPerfil\":null,\"Identificador\":\"24722\",\"id\":12,\"publicacionId\":3,\"userId\":1}",
+      "13": "{\"Nombre\":\"jordi\",\"PrimerApellido\":\"salvador\",\"SegundoApellido\":\"carrete\",\"ImagenPerfil\":null,\"Identificador\":\"47778\",\"id\":13,\"publicacionId\":1,\"userId\":2}",
+      "14": "{\"Nombre\":\"jordi\",\"PrimerApellido\":\"salvador\",\"SegundoApellido\":\"carrete\",\"ImagenPerfil\":null,\"Identificador\":\"47778\",\"id\":14,\"publicacionId\":1,\"userId\":2}"
     },
     "Punto": {
       "1": "{\"Nombre\":\"Aleatorio\",\"Descripcion\":\"Asignado de forma aleatoria (se crea automáticamente)\",\"profesorId\":1,\"id\":1}",
@@ -252,7 +254,9 @@
       "50": "{\"profesorId\":1,\"NombreFamilia\":\"Roberta\",\"Publica\":false,\"Silueta\":\"roberta_silueta.png\",\"NombreComplemento1\":\"monstruos\",\"Complemento1\":[\"roberta_monstruo1.png\",\"roberta_monstruo2.png\",\"roberta_monstruo3.png\",\"roberta_monstruo4.png\",\"roberta_monstruo5.png\"],\"NombreComplemento2\":\"pelos\",\"Complemento2\":[\"roberta_pelo1.png\",\"roberta_pelo2.png\",\"roberta_pelo3.png\",\"roberta_pelo4.png\",\"roberta_pelo5.png\"],\"NombreComplemento3\":\"bocas\",\"Complemento3\":[\"roberta_boca1.png\",\"roberta_boca2.png\",\"roberta_boca3.png\",\"roberta_boca4.png\",\"roberta_boca5.png\"],\"NombreComplemento4\":\"ojos\",\"Complemento4\":[\"roberta_ojos1.png\",\"roberta_ojos2.png\",\"roberta_ojos3.png\",\"roberta_ojos4.png\",\"roberta_ojos5.png\"],\"id\":50}"
     },
     "Publicacion": {
-      "1": "{\"titulo\":\"PRUEBA 1 WEB\",\"publicacion\":\"Esta es la primera publicación de prueba\",\"fecha\":\"2021-05-24T01:04:59.490Z\",\"autorId\":1,\"id\":1}"
+      "1": "{\"titulo\":\"PRUEBA 1 WEB\",\"publicacion\":\"Esta es la primera publicación de prueba\",\"fecha\":\"2021-05-24T01:04:59.490Z\",\"autorId\":1,\"id\":1}",
+      "2": "{\"titulo\":\"holi\",\"publicacion\":\"holi\",\"fecha\":\"2021-05-24T09:43:17.962Z\",\"autorId\":2,\"id\":2}",
+      "3": "{\"titulo\":\"holi\",\"publicacion\":\"Caracoli\",\"fecha\":\"2021-05-24T09:44:53.534Z\",\"autorId\":2,\"id\":3}"
     },
     "Comentario": {
       "1": "{\"comentario\":\"Te la comento aver que tal va\",\"fecha\":\"2021-05-24T01:06:08.794Z\",\"likes\":0,\"autorId\":1,\"publicacionId\":1,\"id\":1}"
