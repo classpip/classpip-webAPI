@@ -1,6 +1,6 @@
 {
   "ids": {
-    "Profesor": 15,
+    "Profesor": 19,
     "Punto": 7,
     "Coleccion": 5,
     "Cromo": 174,
@@ -10,7 +10,7 @@
     "PreguntaDelCuestionario": 135,
     "FamiliaAvatares": 51,
     "FamiliaImagenesPerfil": 11,
-    "Publicacion": 4,
+    "Publicacion": 5,
     "Comentario": 2
   },
   "models": {
@@ -28,7 +28,11 @@
       "11": "{\"Nombre\":\"Ivan\",\"PrimerApellido\":\"Requena\",\"SegundoApellido\":\"Garcia\",\"ImagenPerfil\":null,\"Identificador\":\"24722\",\"id\":11,\"publicacionId\":3,\"userId\":1}",
       "12": "{\"Nombre\":\"Ivan\",\"PrimerApellido\":\"Requena\",\"SegundoApellido\":\"Garcia\",\"ImagenPerfil\":null,\"Identificador\":\"24722\",\"id\":12,\"publicacionId\":3,\"userId\":1}",
       "13": "{\"Nombre\":\"jordi\",\"PrimerApellido\":\"salvador\",\"SegundoApellido\":\"carrete\",\"ImagenPerfil\":null,\"Identificador\":\"47778\",\"id\":13,\"publicacionId\":1,\"userId\":2}",
-      "14": "{\"Nombre\":\"jordi\",\"PrimerApellido\":\"salvador\",\"SegundoApellido\":\"carrete\",\"ImagenPerfil\":null,\"Identificador\":\"47778\",\"id\":14,\"publicacionId\":1,\"userId\":2}"
+      "14": "{\"Nombre\":\"jordi\",\"PrimerApellido\":\"salvador\",\"SegundoApellido\":\"carrete\",\"ImagenPerfil\":null,\"Identificador\":\"47778\",\"id\":14,\"publicacionId\":1,\"userId\":2}",
+      "15": "{\"Nombre\":\"jordi\",\"PrimerApellido\":\"salvador\",\"SegundoApellido\":\"carrete\",\"ImagenPerfil\":null,\"Identificador\":\"47778\",\"id\":15,\"publicacionId\":3,\"userId\":2}",
+      "16": "{\"Nombre\":\"jordi\",\"PrimerApellido\":\"salvador\",\"SegundoApellido\":\"carrete\",\"ImagenPerfil\":null,\"Identificador\":\"47778\",\"id\":16,\"publicacionId\":2,\"userId\":2}",
+      "17": "{\"Nombre\":\"jordi\",\"PrimerApellido\":\"salvador\",\"SegundoApellido\":\"carrete\",\"ImagenPerfil\":null,\"Identificador\":\"47778\",\"id\":17,\"publicacionId\":4,\"userId\":2}",
+      "18": "{\"Nombre\":\"jordi\",\"PrimerApellido\":\"salvador\",\"SegundoApellido\":\"carrete\",\"ImagenPerfil\":null,\"Identificador\":\"47778\",\"id\":18,\"publicacionId\":4,\"userId\":2}"
     },
     "Punto": {
       "1": "{\"Nombre\":\"Aleatorio\",\"Descripcion\":\"Asignado de forma aleatoria (se crea automáticamente)\",\"profesorId\":1,\"id\":1}",
@@ -256,7 +260,8 @@
     "Publicacion": {
       "1": "{\"titulo\":\"PRUEBA 1 WEB\",\"publicacion\":\"Esta es la primera publicación de prueba\",\"fecha\":\"2021-05-24T01:04:59.490Z\",\"autorId\":1,\"id\":1}",
       "2": "{\"titulo\":\"holi\",\"publicacion\":\"holi\",\"fecha\":\"2021-05-24T09:43:17.962Z\",\"autorId\":2,\"id\":2}",
-      "3": "{\"titulo\":\"holi\",\"publicacion\":\"Caracoli\",\"fecha\":\"2021-05-24T09:44:53.534Z\",\"autorId\":2,\"id\":3}"
+      "3": "{\"titulo\":\"holi\",\"publicacion\":\"Caracoli\",\"fecha\":\"2021-05-24T09:44:53.534Z\",\"autorId\":2,\"id\":3}",
+      "4": "{\"titulo\":\"efhgsldf\",\"publicacion\":\"afsdfd\",\"fecha\":\"2021-05-25T21:40:44.653Z\",\"autorId\":2,\"id\":4}"
     },
     "Comentario": {
       "1": "{\"comentario\":\"Te la comento aver que tal va\",\"fecha\":\"2021-05-24T01:06:08.794Z\",\"likes\":0,\"autorId\":1,\"publicacionId\":1,\"id\":1}"
