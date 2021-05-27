@@ -1,6 +1,6 @@
 {
   "ids": {
-    "Profesor": 30,
+    "Profesor": 31,
     "Punto": 7,
     "Coleccion": 5,
     "Cromo": 174,
@@ -16,7 +16,8 @@
   "models": {
     "Profesor": {
       "1": "{\"Nombre\":\"Ivan\",\"PrimerApellido\":\"Requena\",\"SegundoApellido\":\"Garcia\",\"ImagenPerfil\":null,\"Identificador\":\"24722\",\"id\":1,\"userId\":1}",
-      "2": "{\"Nombre\":\"jordi\",\"PrimerApellido\":\"salvador\",\"SegundoApellido\":\"carrete\",\"ImagenPerfil\":null,\"Identificador\":\"47778\",\"id\":2,\"userId\":2}"
+      "2": "{\"Nombre\":\"jordi\",\"PrimerApellido\":\"salvador\",\"SegundoApellido\":\"carrete\",\"ImagenPerfil\":null,\"Identificador\":\"47778\",\"id\":2,\"userId\":2}",
+      "30": "{\"Nombre\":\"jordi\",\"PrimerApellido\":\"salvador\",\"SegundoApellido\":\"carrete\",\"ImagenPerfil\":null,\"Identificador\":\"47778\",\"id\":30,\"publicacionId\":3,\"userId\":2}"
     },
     "Punto": {
       "1": "{\"Nombre\":\"Aleatorio\",\"Descripcion\":\"Asignado de forma aleatoria (se crea automáticamente)\",\"profesorId\":1,\"id\":1}",
