@@ -10,7 +10,7 @@
     "PreguntaDelCuestionario": 135,
     "FamiliaAvatares": 51,
     "FamiliaImagenesPerfil": 11,
-    "Publicacion": 4,
+    "Publicacion": 5,
     "Comentario": 2
   },
   "models": {
@@ -244,7 +244,8 @@
     "Publicacion": {
       "1": "{\"titulo\":\"PRUEBA 1 WEB\",\"publicacion\":\"Primera publicación\",\"fecha\":\"2021-05-26T20:36:08.185Z\",\"autorId\":1,\"id\":1}",
       "2": "{\"titulo\":\"prueba 2\",\"publicacion\":\"segunda jaj\",\"fecha\":\"2021-05-26T21:06:06.782Z\",\"autorId\":1,\"id\":2}",
-      "3": "{\"titulo\":\"prueba 3\",\"publicacion\":\"3 jiji\",\"fecha\":\"2021-05-26T21:07:28.289Z\",\"autorId\":1,\"id\":3}"
+      "3": "{\"titulo\":\"prueba 3\",\"publicacion\":\"3 jiji\",\"fecha\":\"2021-05-26T21:07:28.289Z\",\"autorId\":1,\"id\":3}",
+      "4": "{\"titulo\":\"Titulo\",\"publicacion\":\"Experiencia\",\"fecha\":\"2021-05-27T09:08:36.300Z\",\"autorId\":2,\"id\":4}"
     },
     "Comentario": {
       "1": "{\"comentario\":\"hola\",\"fecha\":\"2021-05-26T21:15:04.483Z\",\"likes\":0,\"autorId\":1,\"publicacionId\":3,\"id\":1}"
