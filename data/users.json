@@ -1,7 +1,7 @@
 {
   "ids": {
     "User": 3,
-    "AccessToken": 1,
+    "AccessToken": 2,
     "ACL": 1,
     "RoleMapping": 1,
     "Role": 1
@@ -12,6 +12,7 @@
       "2": "{\"username\":\"jota\",\"password\":\"$2a$10$wwvxs/0Hb/Mf0sPxMsLN4e8lTDgZAbp9l3cmlML0YoVh4meL5OmvC\",\"email\":\"jordi@jordi.com\",\"id\":2}"
     },
     "AccessToken": {
+      "xwNFt4k8FFkSehqSoWHzMKtj6nxoKM7eRdIuSsDmhqOiDjXJYHwWfLOmaUpc7nv0": "{\"id\":\"xwNFt4k8FFkSehqSoWHzMKtj6nxoKM7eRdIuSsDmhqOiDjXJYHwWfLOmaUpc7nv0\",\"ttl\":1209600,\"created\":\"2021-05-26T22:48:35.715Z\",\"userId\":1}"
     },
     "ACL": {},
     "RoleMapping": {},
