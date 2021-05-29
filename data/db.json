@@ -11,7 +11,7 @@
     "FamiliaAvatares": 51,
     "FamiliaImagenesPerfil": 11,
     "Publicacion": 5,
-    "Comentario": 2
+    "Comentario": 3
   },
   "models": {
     "Profesor": {
@@ -249,7 +249,8 @@
       "4": "{\"titulo\":\"Titulo\",\"publicacion\":\"Experiencia\",\"fecha\":\"2021-05-27T09:08:36.300Z\",\"autorId\":2,\"id\":4}"
     },
     "Comentario": {
-      "1": "{\"comentario\":\"hola\",\"fecha\":\"2021-05-26T21:15:04.483Z\",\"likes\":0,\"autorId\":1,\"publicacionId\":3,\"id\":1}"
+      "1": "{\"id\":1,\"comentario\":\"holii\",\"fecha\":\"2021-05-29T17:47:27.690Z\",\"likes\":2,\"autorId\":1,\"publicacionId\":3}",
+      "2": "{\"comentario\":\"hola\",\"fecha\":\"2021-05-29T17:58:31.109Z\",\"likes\":0,\"autorId\":2,\"publicacionId\":4,\"id\":2}"
     }
   }
 }
