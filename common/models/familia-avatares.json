@@ -15,11 +15,6 @@
       "type": "string",
       "required": true
     },
-    "publica": {
-      "type": "boolean",
-      "required": false,
-      "default": false
-    },
     "silueta": {
       "type": "string",
       "required": true

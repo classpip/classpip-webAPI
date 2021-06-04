@@ -14,11 +14,6 @@
     "descripcion": {
       "type": "string",
       "required": true
-    },
-    "publico": {
-      "type": "boolean",
-      "required": false,
-      "default": false
     }
   },
   "validations": [],
