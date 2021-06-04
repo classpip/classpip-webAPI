@@ -7,15 +7,15 @@
     "validateUpsert": true
   },
   "properties": {
-    "Titulo": {
+    "titulo": {
       "type": "string",
       "required": true
     },
-    "Descripcion": {
+    "descripcion": {
       "type": "string",
       "required": true
     },
-    "Publico": {
+    "publico": {
       "type": "boolean",
       "required": false,
       "default": false
@@ -23,7 +23,7 @@
   },
   "validations": [],
   "relations": {
-    "Preguntas": {
+    "preguntas": {
       "type": "hasMany",
       "model": "Pregunta",
       "foreignKey": "cuestionarioId",

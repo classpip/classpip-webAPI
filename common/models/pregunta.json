@@ -7,51 +7,51 @@
     "validateUpsert": true
   },
   "properties": {
-    "Titulo": {
+    "titulo": {
       "type": "string",
       "required": true
     },
-    "Tipo": {
+    "tipo": {
       "type": "string",
       "required": true
     },
-    "Pregunta": {
+    "pregunta": {
       "type": "string",
       "required": true
     },
-    "Tematica": {
+    "tematica": {
       "type": "string",
       "required": true
     },
-    "Imagen": {
+    "imagen": {
       "type": "string",
       "required": false
     },
-    "FeedbackCorrecto": {
+    "feedbackCorrecto": {
       "type": "string",
       "required": true
     },
-    "FeedbackIncorrecto": {
+    "feedbackIncorrecto": {
       "type": "string",
       "required": true
     },
-    "RespuestaCorrecta": {
+    "respuestaCorrecta": {
       "type": "string",
       "required": false
     },
-    "RespuestaIncorrecta1": {
+    "respuestaIncorrecta1": {
       "type": "string",
       "required": false
     },
-    "RespuestaIncorrecta2": {
+    "respuestaIncorrecta2": {
       "type": "string",
       "required": false
     },
-    "RespuestaIncorrecta3": {
+    "respuestaIncorrecta3": {
       "type": "string",
       "required": false
     },
-    "Emparejamientos": {
+    "emparejamientos": {
       "type": [
         "object"
       ],

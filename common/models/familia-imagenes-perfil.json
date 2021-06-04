@@ -7,15 +7,15 @@
     "validateUpsert": true
   },
   "properties": {
-    "NombreFamilia": {
+    "nombreFamilia": {
       "type": "string",
       "required": true
     },
-    "NumeroImagenes": {
+    "numeroImagenes": {
       "type": "number",
       "required": true
     },
-    "Imagenes": {
+    "imagenes": {
       "type": [
         "string"
       ],

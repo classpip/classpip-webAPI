@@ -7,23 +7,23 @@
     "validateUpsert": true
   },
   "properties": {
-    "Nombre": {
+    "nombre": {
       "type": "string",
       "required": true
     },
-    "PrimerApellido": {
+    "primerApellido": {
       "type": "string",
       "required": true
     },
-    "SegundoApellido": {
+    "segundoApellido": {
       "type": "string",
       "required": true
     },
-    "ImagenPerfil": {
+    "imagenPerfil": {
       "type": "string",
       "required": false
     },
-    "Identificador": {
+    "identificador": {
       "type": "string",
       "required": true
     }

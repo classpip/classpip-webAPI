@@ -11,51 +11,51 @@
       "type": "number",
       "required": true
     },
-    "NombreFamilia": {
+    "nombreFamilia": {
       "type": "string",
       "required": true
     },
-    "Publica": {
+    "publica": {
       "type": "boolean",
       "required": false,
       "default": false
     },
-    "Silueta": {
+    "silueta": {
       "type": "string",
       "required": true
     },
-    "NombreComplemento1": {
+    "nombreComplemento1": {
       "type": "string",
       "required": true
     },
-    "Complemento1": {
+    "complemento1": {
       "type": [
         "string"
       ]
     },
-    "NombreComplemento2": {
+    "nombreComplemento2": {
       "type": "string",
       "required": true
     },
-    "Complemento2": {
+    "complemento2": {
       "type": [
         "string"
       ]
     },
-    "NombreComplemento3": {
+    "nombreComplemento3": {
       "type": "string",
       "required": true
     },
-    "Complemento3": {
+    "complemento3": {
       "type": [
         "string"
       ]
     },
-    "NombreComplemento4": {
+    "nombreComplemento4": {
       "type": "string",
       "required": true
     },
-    "Complemento4": {
+    "complemento4": {
       "type": [
         "string"
       ]

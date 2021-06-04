@@ -7,23 +7,23 @@
     "validateUpsert": true
   },
   "properties": {
-    "Nombre": {
+    "nombre": {
       "type": "string",
       "required": true
     },
-    "ImagenDelante": {
+    "imagenDelante": {
       "type": "string",
       "required": true
     },
-    "ImagenDetras": {
+    "imagenDetras": {
       "type": "string",
       "required": false
     },
-    "Probabilidad": {
+    "probabilidad": {
       "type": "string",
       "required": true
     },
-    "Nivel": {
+    "nivel": {
       "type": "string",
       "required": true
     }

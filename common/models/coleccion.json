@@ -7,22 +7,17 @@
     "validateUpsert": true
   },
   "properties": {
-    "Nombre": {
+    "nombre": {
       "type": "string",
       "required": true
     },
-    "ImagenColeccion": {
+    "imagenColeccion": {
       "type": "string",
       "required": true
     },
-    "DosCaras": {
+    "dosCaras": {
       "type": "boolean",
       "required": true,
-      "default": false
-    },
-    "Publica": {
-      "type": "boolean",
-      "required": false,
       "default": false
     }
   },

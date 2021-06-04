@@ -7,11 +7,11 @@
     "validateUpsert": true
   },
   "properties": {
-    "Nombre": {
+    "nombre": {
       "type": "string",
       "required": true
     },
-    "Descripcion": {
+    "descripcion": {
       "type": "string",
       "required": true
     }
