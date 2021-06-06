@@ -11,7 +11,7 @@
     "FamiliaAvatares": 51,
     "FamiliaImagenesPerfil": 11,
     "Publicacion": 7,
-    "Comentario": 3
+    "Comentario": 9
   },
   "models": {
     "Profesor": {
