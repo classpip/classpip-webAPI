@@ -5,7 +5,7 @@
     "Coleccion": 5,
     "Cromo": 174,
     "Escenario": 11,
-    "Pregunta": 232,
+    "Pregunta": 233,
     "Cuestionario": 48,
     "PreguntaDelCuestionario": 135,
     "FamiliaAvatares": 51,
@@ -90,7 +90,8 @@
       "228": "{\"titulo\":\"Madrid\",\"tipo\":\"Cuatro opciones\",\"pregunta\":\"¿Qué ciudad es?\",\"tematica\":\"Ciudades\",\"imagen\":\"madrid.jpg\",\"feedbackCorrecto\":\"Correcto.\",\"feedbackIncorrecto\":\"No. A ver si viajas más.\",\"respuestaCorrecta\":\"Madrid\",\"respuestaIncorrecta1\":\"Barcelona\",\"respuestaIncorrecta2\":\"Sevilla\",\"respuestaIncorrecta3\":\"Málaga\",\"profesorId\":18,\"id\":228}",
       "229": "{\"titulo\":\"Empareja\",\"tipo\":\"Emparejamiento\",\"pregunta\":\"Empareja paises con sus capitales\",\"tematica\":\"Ciudades\",\"feedbackCorrecto\":\"Correcto.\",\"feedbackIncorrecto\":\"No. A ver si viajas más.\",\"emparejamientos\":[{\"l\":\"Francia\",\"r\":\"París\"},{\"l\":\"España\",\"r\":\"Madrid\"},{\"l\":\"Italia\",\"r\":\"Roma\"},{\"l\":\"Portugal\",\"r\":\"Lisboa\"}],\"profesorId\":18,\"id\":229}",
       "230": "{\"titulo\":\"Barcelona\",\"tipo\":\"Respuesta abierta\",\"pregunta\":\"¿Qué ciudad es?\",\"tematica\":\"Ciudades\",\"imagen\":\"barcelona.jpg\",\"feedbackCorrecto\":\"Correcto.\",\"feedbackIncorrecto\":\"No. A ver si viajas más.\",\"respuestaCorrecta\":\"Barcelona\",\"profesorId\":18,\"id\":230}",
-      "231": "{\"titulo\":\"Sevilla\",\"tipo\":\"Verdadero o falso\",\"pregunta\":\"Esta foto es de Barcelona\",\"tematica\":\"Ciudades\",\"imagen\":\"sevilla.jpg\",\"feedbackCorrecto\":\"Correcto.\",\"feedbackIncorrecto\":\"No. A ver si viajas más.\",\"respuestaCorrecta\":\"falso\",\"profesorId\":18,\"id\":231}"
+      "231": "{\"titulo\":\"Sevilla\",\"tipo\":\"Verdadero o falso\",\"pregunta\":\"Esta foto es de Barcelona\",\"tematica\":\"Ciudades\",\"imagen\":\"sevilla.jpg\",\"feedbackCorrecto\":\"Correcto.\",\"feedbackIncorrecto\":\"No. A ver si viajas más.\",\"respuestaCorrecta\":\"falso\",\"profesorId\":18,\"id\":231}",
+      "232": "{\"titulo\":\"Futbol\",\"tipo\":\"Cuatro opciones\",\"pregunta\":\"Que equipo es?\",\"tematica\":\"Deportes\",\"imagen\":\"Brescia.png\",\"feedbackCorrecto\":\"Muy bien\",\"feedbackIncorrecto\":\"Muy mal\",\"respuestaCorrecta\":\"Brescia\",\"respuestaIncorrecta1\":\"F.C Barcelona\",\"respuestaIncorrecta2\":\"Juventus\",\"respuestaIncorrecta3\":\"Benevento\",\"emparejamientos\":[],\"profesorId\":2,\"id\":232}"
     },
     "FamiliaImagenesPerfil": {
       "1": "{\"nombreFamilia\":\"Fantasmas\",\"numeroImagenes\":16,\"imagenes\":[\"g15142.png\",\"g15156.png\",\"g15172.png\",\"g15184.png\",\"g15195.png\",\"g15208.png\",\"g15222.png\",\"g15233.png\",\"g15241.png\",\"g15254.png\",\"g15269.png\",\"g15283.png\",\"g15295.png\",\"g15308.png\",\"g15321.png\",\"g15334.png\"],\"profesorId\":1,\"id\":15}",
