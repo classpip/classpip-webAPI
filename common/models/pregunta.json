@@ -56,6 +56,9 @@
         "object"
       ],
       "required": false
+    },
+    "recomendacion": {
+      "type": "string"      
     }
   },
   "validations": [],

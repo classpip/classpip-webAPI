@@ -19,6 +19,9 @@
       "type": "boolean",
       "required": true,
       "default": false
+    },
+    "recomendacion": {
+      "type": "string"      
     }
   },
   "validations": [],
