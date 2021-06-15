@@ -78,10 +78,9 @@
       "model": "CuestionarioSatisfaccion",
       "foreignKey": "profesorId"
     },
-    "userId": {
+    "user": {
       "type": "belongsTo",
       "model": "User",
-      "foreignKey": "userId",
       "options": {
         "nestRemoting": true
       }
