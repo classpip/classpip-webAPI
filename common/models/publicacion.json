@@ -17,7 +17,13 @@
     },
     "fecha": {
       "type": "date"
-    }
+    },
+    "ficheros": [{
+      "type": "string"
+    }],
+    "imagenes": [{
+      "type": "string"
+    }]
   },
   "validations": [],
   "relations": {
