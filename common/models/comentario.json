@@ -12,10 +12,6 @@
     },
     "fecha": {
       "type": "date"
-    },
-    "likes": {
-      "type": "number",
-      "default": 0
     }
   },
   "validations": [],
