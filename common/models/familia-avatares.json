@@ -54,6 +54,9 @@
       "type": [
         "string"
       ]
+    },
+    "recomendacion": {
+      "type": "string"
     }
   },
   "validations": [],
