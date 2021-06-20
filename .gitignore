@@ -1,4 +1,5 @@
-<<<<<<< HEAD
+!node_modules/loopback
+
 # Logs
 logs
 *.log
@@ -103,7 +104,6 @@ dist
 
 # TernJS port file
 .tern-port
-=======
 *.csv
 *.dat
 *.iml
@@ -123,4 +123,3 @@ dist
 coverage
 node_modules
 npm-debug.log
->>>>>>> 1c87d6f... Versión inicial, importación API dashboard
