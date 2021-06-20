@@ -92,12 +92,6 @@
       "principalType": "ROLE",
       "principalId": "$unauthenticated",
       "permission": "DENY"
-    },
-    {
-      "accessType": "READ",
-      "principalType": "ROLE",
-      "principalId": "$unauthenticated",
-      "permission": "DENY"
     }
   ],
   "methods": {}
