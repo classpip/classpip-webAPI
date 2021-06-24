@@ -2,7 +2,7 @@
   "db": {
     "name": "db",
     "connector": "memory",
-    "file": "./data/users.json"
+    "file": "./data/tokens.json"
   },
   "baseDatos": {
     "name": "baseDatos",
@@ -15,5 +15,21 @@
     "connector": "loopback-component-storage",
     "provider": "filesystem",
     "root": "./server/ficheros"
+  },
+  "emailDatasource": {
+    "name": "emailDatasource",
+    "connector": "mail",
+    "transports": [
+      {
+        "type": "SMTP",
+        "host": "smtp.gmail.com",
+        "secure": true,
+        "port": 465,
+        "auth": {
+          "user": "classpipauth2021@gmail.com",
+          "pass": "Classpip2021"
+        }
+      }
+    ]
   }
 }

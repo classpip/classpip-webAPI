@@ -21,7 +21,7 @@
       "default": false
     },
     "recomendacion": {
-      "type": "string"      
+      "type": "string"
     }
   },
   "validations": [],

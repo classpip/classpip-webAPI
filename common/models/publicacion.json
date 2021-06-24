@@ -18,12 +18,20 @@
     "fecha": {
       "type": "date"
     },
-    "ficheros": [{
-      "type": "string"
-    }],
-    "imagenes": [{
-      "type": "string"
-    }]
+    "ficheros": {
+      "type": [
+        {
+          "type": "string"
+        }
+      ]
+    },
+    "imagenes": {
+      "type": [
+        {
+          "type": "string"
+        }
+      ]
+    }
   },
   "validations": [],
   "relations": {
@@ -53,6 +61,13 @@
       }
     }
   },
-  "acls": [],
+  "acls": [
+    {
+      "accessType": "WRITE",
+      "principalType": "ROLE",
+      "principalId": "$unauthenticated",
+      "permission": "DENY"
+    }
+  ],
   "methods": {}
 }

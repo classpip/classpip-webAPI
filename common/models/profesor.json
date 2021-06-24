@@ -1,11 +1,16 @@
 {
   "name": "Profesor",
   "plural": "Profesores",
-  "base": "PersistedModel",
+  "base": "User",
   "idInjection": true,
   "options": {
     "validateUpsert": true
   },
+  "hidden": [
+    "password",
+    "realm",
+    "emailVerified"
+  ],
   "properties": {
     "nombre": {
       "type": "string",
@@ -30,11 +35,6 @@
   },
   "validations": [],
   "relations": {
-    "puntos": {
-      "type": "hasMany",
-      "model": "Punto",
-      "foreignKey": "profesorId"
-    },
     "colecciones": {
       "type": "hasMany",
       "model": "Coleccion",
@@ -45,53 +45,24 @@
       "model": "Pregunta",
       "foreignKey": "profesorId"
     },
-    "cuestionarios": {
-      "type": "hasMany",
-      "model": "Cuestionario",
-      "foreignKey": "profesorId"
-    },
-    "escenarios": {
-      "type": "hasMany",
-      "model": "Escenario",
-      "foreignKey": "profesorId"
-    },
     "familiaAvatares": {
       "type": "hasMany",
       "model": "FamiliaAvatares",
       "foreignKey": "profesorId"
     },
-    "rubricas": {
-      "type": "hasMany",
-      "model": "Rubrica",
-      "foreignKey": "profesorId",
-      "options": {
-        "nestRemoting": true
-      }
-    },
     "familiasImagenesDePerfil": {
       "type": "hasMany",
       "model": "FamiliaImagenesPerfil",
       "foreignKey": "profesorId"
-    },
-    "cuestionariosSatisfaccion": {
-      "type": "hasMany",
-      "model": "CuestionarioSatisfaccion",
-      "foreignKey": "profesorId"
-    },
-    "user": {
-      "type": "belongsTo",
-      "model": "User",
-      "options": {
-        "nestRemoting": true
-      }
     }
   },
   "acls": [
     {
-      "accessType": "WRITE",
+      "accessType": "EXECUTE",
       "principalType": "ROLE",
-      "principalId": "$unauthenticated",
-      "permission": "DENY"
+      "principalId": "$everyone",
+      "permission": "ALLOW",
+      "property": "find"
     }
   ],
   "methods": {}
