@@ -1,6 +1,6 @@
 {
   "ids": {
-    "Profesor": 3,
+    "Profesor": 4,
     "Coleccion": 5,
     "Cromo": 174,
     "Pregunta": 233,
@@ -12,7 +12,8 @@
   "models": {
     "Profesor": {
       "1": "{\"id\":1,\"nombre\":\"Ivan\",\"primerApellido\":\"Requena\",\"segundoApellido\":\"Garcia\",\"imagenPerfil\":null,\"identificador\":\"12775\",\"username\":\"ivan\",\"password\":\"$2a$10$892PUHLhFl14G3BDKRSn/.oFY2z18LCbmn1TLjuD.hf5Qg7LUSUJy\",\"email\":\"ivan@gmail.com\"}",
-      "2": "{\"id\":2,\"nombre\":\"Ivan\",\"primerApellido\":\"Requena\",\"segundoApellido\":\"Garcia\",\"imagenPerfil\":null,\"identificador\":\"45179\",\"username\":\"ivanaska\",\"password\":\"$2a$10$1rujpvHRa7TK/OBBqPBn5.xP87BM7el5uTGlYSoNb0gMtQZ.8xype\",\"email\":\"ivan.req@gmail.com\"}"
+      "2": "{\"id\":2,\"nombre\":\"Ivan\",\"primerApellido\":\"Requena\",\"segundoApellido\":\"Garcia\",\"imagenPerfil\":null,\"identificador\":\"45179\",\"username\":\"ivanaska\",\"password\":\"$2a$10$1rujpvHRa7TK/OBBqPBn5.xP87BM7el5uTGlYSoNb0gMtQZ.8xype\",\"email\":\"ivan.req@gmail.com\"}",
+      "3": "{\"nombre\":\"Jordi\",\"primerApellido\":\"Salvador\",\"segundoApellido\":\"Carreté\",\"imagenPerfil\":null,\"identificador\":\"38811\",\"username\":\"jota\",\"password\":\"$2a$10$FUsky4BrA3ha/63YfLRdGeN2umDAd2Smq9H81DUcl/6VqYAhEjzlW\",\"email\":\"jordisalvador98@gmail.com\",\"id\":3}"
     },
     "Coleccion": {
       "1": "{\"nombre\":\"Compositores\",\"imagenColeccion\":\"compositores.png\",\"dosCaras\":true,\"profesorId\":18,\"id\":1,\"recomendacion\":\"¡Usé esta colección para enseñarles los compositores más importantes de la histroia a mis alumnos y los resultados fuero geniales!\"}",
