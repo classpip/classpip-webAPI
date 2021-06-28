@@ -16,8 +16,8 @@
     "provider": "filesystem",
     "root": "./server/ficheros"
   },
-  "emailDatasource": {
-    "name": "emailDatasource",
+  "email": {
+    "name": "email",
     "connector": "mail",
     "transports": [
       {

@@ -73,6 +73,6 @@
     "public": true
   },
   "Email": {
-    "dataSource": "emailDatasource"
+    "dataSource": "email"
   }
 }
