@@ -1,24 +1,24 @@
 {
   "ids": {
-    "Profesor": 3,
-    "Coleccion": 5,
-    "Cromo": 174,
-    "Pregunta": 235,
+    "Profesor": 4,
+    "Coleccion": 6,
+    "Cromo": 183,
+    "Pregunta": 233,
     "FamiliaAvatares": 51,
     "FamiliaImagenesPerfil": 11,
-    "Publicacion": 8,
+    "Publicacion": 9,
     "Comentario": 9
   },
   "models": {
     "Profesor": {
-      "1": "{\"id\":1,\"nombre\":\"Ivan\",\"primerApellido\":\"Requena\",\"segundoApellido\":\"Garcia\",\"imagenPerfil\":null,\"identificador\":\"12775\",\"username\":\"ivan\",\"password\":\"$2a$10$892PUHLhFl14G3BDKRSn/.oFY2z18LCbmn1TLjuD.hf5Qg7LUSUJy\",\"email\":\"ivan.requena16@gmail.com\"}",
-      "2": "{\"id\":2,\"nombre\":\"Ivan\",\"primerApellido\":\"Requena\",\"segundoApellido\":\"Garcia\",\"imagenPerfil\":null,\"identificador\":\"45179\",\"username\":\"ivanaska\",\"password\":\"$2a$10$1rujpvHRa7TK/OBBqPBn5.xP87BM7el5uTGlYSoNb0gMtQZ.8xype\",\"email\":\"classpipauth2021@gmail.com\"}"
+      "1": "{\"id\":1,\"nombre\":\"Ivan\",\"primerApellido\":\"Requena\",\"segundoApellido\":\"Garcia\",\"imagenPerfil\":null,\"identificador\":\"12775\",\"username\":\"ivan\",\"password\":\"$2a$10$892PUHLhFl14G3BDKRSn/.oFY2z18LCbmn1TLjuD.hf5Qg7LUSUJy\",\"email\":\"ivan@gmail.com\"}",
+      "2": "{\"id\":2,\"nombre\":\"Ivan\",\"primerApellido\":\"Requena\",\"segundoApellido\":\"Garcia\",\"imagenPerfil\":null,\"identificador\":\"45179\",\"username\":\"ivanaska\",\"password\":\"$2a$10$1rujpvHRa7TK/OBBqPBn5.xP87BM7el5uTGlYSoNb0gMtQZ.8xype\",\"email\":\"ivan.req@gmail.com\"}",
+      "3": "{\"nombre\":\"Jordi\",\"primerApellido\":\"Salvador\",\"segundoApellido\":\"Carreté\",\"imagenPerfil\":null,\"identificador\":\"38811\",\"username\":\"jota\",\"password\":\"$2a$10$FUsky4BrA3ha/63YfLRdGeN2umDAd2Smq9H81DUcl/6VqYAhEjzlW\",\"email\":\"jordisalvador98@gmail.com\",\"id\":3}"
     },
     "Coleccion": {
       "1": "{\"nombre\":\"Compositores\",\"imagenColeccion\":\"compositores.png\",\"dosCaras\":true,\"profesorId\":18,\"id\":1,\"recomendacion\":\"¡Usé esta colección para enseñarles los compositores más importantes de la histroia a mis alumnos y los resultados fuero geniales!\"}",
       "2": "{\"nombre\":\"Comandos Linux\",\"imagenColeccion\":\"linux.jpg\",\"dosCaras\":true,\"profesorId\":18,\"id\":2,\"recomendacion\":\"Después de muchos cuatrimestres con muy pocos aprobados en el mínimo de Linux, gracias a esta colección mis alumnos empezaron a mejorar sus notas\"}",
-      "3": "{\"nombre\":\"Mafala\",\"imagenColeccion\":\"mafalda_logo.jpg\",\"dosCaras\":true,\"profesorId\":1,\"id\":3}",
-      "4": "{\"nombre\":\"Pintores Universales\",\"imagenColeccion\":\"pintores_logo.png\",\"dosCaras\":true,\"profesorId\":1,\"id\":4}"
+      "3": "{\"nombre\":\"Jugadores de Futbol\",\"imagenColeccion\":\"images.jpg\",\"dosCaras\":true,\"profesorId\":3,\"id\":5}"
     },
     "Cromo": {
       "137": "{\"nombre\":\"bach\",\"imagenDelante\":\"bach_a.png\",\"imagenDetras\":\"parte7.png\",\"probabilidad\":\"Muy Baja\",\"nivel\":\"Diamante\",\"coleccionId\":1,\"id\":137}",
@@ -40,24 +40,15 @@
       "153": "{\"nombre\":\"grep\",\"imagenDelante\":\"grep_a.png\",\"imagenDetras\":\"grep_b.png\",\"probabilidad\":\"Muy Alta\",\"nivel\":\"Bronce\",\"coleccionId\":2,\"id\":153}",
       "154": "{\"nombre\":\"sed\",\"imagenDelante\":\"sed_a.png\",\"imagenDetras\":\"sed_b.png\",\"probabilidad\":\"Muy Alta\",\"nivel\":\"Bronce\",\"coleccionId\":2,\"id\":154}",
       "155": "{\"nombre\":\"chmod\",\"imagenDelante\":\"chmod_a.png\",\"imagenDetras\":\"chmod_b.png\",\"probabilidad\":\"Muy Alta\",\"nivel\":\"Bronce\",\"coleccionId\":2,\"id\":155}",
-      "156": "{\"nombre\":\"mafalda\",\"imagenDelante\":\"mafalda_a.png\",\"imagenDetras\":\"mafalda_b.png\",\"probabilidad\":\"Muy Baja\",\"nivel\":\"Diamante\",\"coleccionId\":3,\"id\":156}",
-      "157": "{\"nombre\":\"susanita\",\"imagenDelante\":\"susanita_a.png\",\"imagenDetras\":\"susanita_b.png\",\"probabilidad\":\"Alta\",\"nivel\":\"Plata\",\"coleccionId\":3,\"id\":157}",
-      "158": "{\"nombre\":\"miguelito\",\"imagenDelante\":\"miguelito_a.png\",\"imagenDetras\":\"miguelito_b.png\",\"probabilidad\":\"Muy Alta\",\"nivel\":\"Bronce\",\"coleccionId\":3,\"id\":158}",
-      "159": "{\"nombre\":\"manolito\",\"imagenDelante\":\"manolito_a.png\",\"imagenDetras\":\"manolito_b.png\",\"probabilidad\":\"Muy Alta\",\"nivel\":\"Bronce\",\"coleccionId\":3,\"id\":159}",
-      "160": "{\"nombre\":\"libertad\",\"imagenDelante\":\"libertad_a.png\",\"imagenDetras\":\"libertad_b.png\",\"probabilidad\":\"Muy Alta\",\"nivel\":\"Bronce\",\"coleccionId\":3,\"id\":160}",
-      "161": "{\"nombre\":\"papa\",\"imagenDelante\":\"papa_a.png\",\"imagenDetras\":\"papa_b.png\",\"probabilidad\":\"Muy Alta\",\"nivel\":\"Bronce\",\"coleccionId\":3,\"id\":161}",
-      "162": "{\"nombre\":\"mama\",\"imagenDelante\":\"mama_a.png\",\"imagenDetras\":\"mama_b.png\",\"probabilidad\":\"Muy Alta\",\"nivel\":\"Bronce\",\"coleccionId\":3,\"id\":162}",
-      "163": "{\"nombre\":\"felipe\",\"imagenDelante\":\"felipe_a.png\",\"imagenDetras\":\"felipe_b.png\",\"probabilidad\":\"Baja\",\"nivel\":\"Platino\",\"coleccionId\":3,\"id\":163}",
-      "164": "{\"nombre\":\"guille\",\"imagenDelante\":\"guille_a.png\",\"imagenDetras\":\"guille_b.png\",\"probabilidad\":\"Media\",\"nivel\":\"Oro\",\"coleccionId\":3,\"id\":164}",
-      "165": "{\"nombre\":\"Velazquez\",\"imagenDelante\":\"velazquez.png\",\"imagenDetras\":\"dali_b.png\",\"probabilidad\":\"Muy Baja\",\"nivel\":\"Diamante\",\"coleccionId\":4,\"id\":165}",
-      "166": "{\"nombre\":\"Da Vinci\",\"imagenDelante\":\"davinci.png\",\"imagenDetras\":\"picasso_b.png\",\"probabilidad\":\"Muy Alta\",\"nivel\":\"Bronce\",\"coleccionId\":4,\"id\":166}",
-      "167": "{\"nombre\":\"Rubens\",\"imagenDelante\":\"rubens.png\",\"imagenDetras\":\"vangogh_b.png\",\"probabilidad\":\"Muy Alta\",\"nivel\":\"Bronce\",\"coleccionId\":4,\"id\":167}",
-      "168": "{\"nombre\":\"Dali\",\"imagenDelante\":\"dali.png\",\"imagenDetras\":\"rembrandt_b.png\",\"probabilidad\":\"Baja\",\"nivel\":\"Platino\",\"coleccionId\":4,\"id\":168}",
-      "169": "{\"nombre\":\"Rembrandt\",\"imagenDelante\":\"rembrandt.png\",\"imagenDetras\":\"rubens_b.png\",\"probabilidad\":\"Muy Alta\",\"nivel\":\"Bronce\",\"coleccionId\":4,\"id\":169}",
-      "170": "{\"nombre\":\"Van Gogh\",\"imagenDelante\":\"vangogh.png\",\"imagenDetras\":\"davinci_b.png\",\"probabilidad\":\"Muy Alta\",\"nivel\":\"Bronce\",\"coleccionId\":4,\"id\":170}",
-      "171": "{\"nombre\":\"Picasso\",\"imagenDelante\":\"picasso.png\",\"imagenDetras\":\"frida_b.png\",\"probabilidad\":\"Muy Alta\",\"nivel\":\"Bronce\",\"coleccionId\":4,\"id\":171}",
-      "172": "{\"nombre\":\"Frida\",\"imagenDelante\":\"frida.png\",\"imagenDetras\":\"velazquez_b.png\",\"probabilidad\":\"Alta\",\"nivel\":\"Plata\",\"coleccionId\":4,\"id\":172}",
-      "173": "{\"nombre\":\"Goya\",\"imagenDelante\":\"goya.png\",\"imagenDetras\":\"goya_b.png\",\"probabilidad\":\"Media\",\"nivel\":\"Oro\",\"coleccionId\":4,\"id\":173}"
+      "156": "{\"nombre\":\"Mbappé\",\"imagenDelante\":\"mbappe.jpg\",\"imagenDetras\":\"psg.jpg\",\"probabilidad\":\"BAJA\",\"nivel\":\"ORO\",\"coleccionId\":5,\"id\":174}",
+      "157": "{\"nombre\":\"Benzema\",\"imagenDelante\":\"benzema.jpg\",\"imagenDetras\":\"madrid.png\",\"probabilidad\":\"ALTA\",\"nivel\":\"PLATA\",\"coleccionId\":5,\"id\":175}",
+      "158": "{\"nombre\":\"De Bruyne\",\"imagenDelante\":\"debruyne.jpg\",\"imagenDetras\":\"city.jpg\",\"probabilidad\":\"ALTA\",\"nivel\":\"PLATA\",\"coleccionId\":5,\"id\":176}",
+      "159": "{\"nombre\":\"Lewandowski\",\"imagenDelante\":\"lewandowski.jpg\",\"imagenDetras\":\"bayern.png\",\"probabilidad\":\"MUY ALTA\",\"nivel\":\"BRONCE\",\"coleccionId\":5,\"id\":177}",
+      "160": "{\"nombre\":\"Messi\",\"imagenDelante\":\"messi.jpg\",\"imagenDetras\":\"fcb.png\",\"probabilidad\":\"MUY BAJA\",\"nivel\":\"DIAMANTE\",\"coleccionId\":5,\"id\":178}",
+      "161": "{\"nombre\":\"Pogba\",\"imagenDelante\":\"pogba.jpg\",\"imagenDetras\":\"united.png\",\"probabilidad\":\"ALTA\",\"nivel\":\"PLATA\",\"coleccionId\":5,\"id\":179}",
+      "162": "{\"nombre\":\"Reus\",\"imagenDelante\":\"reus.jpg\",\"imagenDetras\":\"bvb.png\",\"probabilidad\":\"MUY ALTA\",\"nivel\":\"BRONCE\",\"coleccionId\":5,\"id\":180}",
+      "163": "{\"nombre\":\"Salah\",\"imagenDelante\":\"salah.jpg\",\"imagenDetras\":\"liverpool.png\",\"probabilidad\":\"BAJA\",\"nivel\":\"ORO\",\"coleccionId\":5,\"id\":181}",
+      "164": "{\"nombre\":\"Cristiano Ronaldo\",\"imagenDelante\":\"cr7.jpg\",\"imagenDetras\":\"juve.png\",\"probabilidad\":\"MUY BAJA\",\"nivel\":\"DIAMANTE\",\"coleccionId\":5,\"id\":182}"
     },
     "Pregunta": {
       "2": "{\"titulo\":\"Sumas\",\"tipo\":\"Cuatro opciones\",\"pregunta\":\"¿Cual es el resultado de 5 + 7?\",\"tematica\":\"Mates\",\"respuestaCorrecta\":\"12\",\"respuestaIncorrecta1\":\"13\",\"respuestaIncorrecta2\":\"11\",\"respuestaIncorrecta3\":\"15\",\"feedbackCorrecto\":\"Muy bien\",\"feedbackIncorrecto\":\"Ven a verme\",\"profesorId\":1,\"id\":2}",
@@ -126,7 +117,8 @@
       "4": "{\"titulo\":\"titulo\",\"publicacion\":\"Experiencia\",\"fecha\":\"2021-05-27T09:08:36.300Z\",\"autorId\":2,\"id\":4}",
       "5": "{\"titulo\":\"titulo\",\"publicacion\":\"jiji\",\"fecha\":\"2021-05-27T21:13:22.617Z\",\"autorId\":1,\"id\":5}",
       "6": "{\"titulo\":\"string\",\"publicacion\":\"string\",\"fecha\":\"2021-06-03T17:09:11.133Z\",\"autorId\":1,\"id\":6}",
-      "7": "{\"titulo\":\"Prueba Gatusso\",\"publicacion\":\"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.\",\"fecha\":\"2021-06-20T16:41:57.979Z\",\"ficheros\":[\"acta inicial meba maig 2021.pdf\",\"avatares.json\"],\"imagenes\":[\"Captura.png\",\"chulito.JPG\"],\"autorId\":1,\"id\":7}"
+      "7": "{\"titulo\":\"Prueba Gatusso\",\"publicacion\":\"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.\",\"fecha\":\"2021-06-20T16:41:57.979Z\",\"ficheros\":[\"acta inicial meba maig 2021.pdf\",\"avatares.json\"],\"imagenes\":[\"Captura.png\",\"chulito.JPG\"],\"autorId\":1,\"id\":7}",
+      "8": "{\"titulo\":\"Prueba IMAGEN + FICHERO\",\"publicacion\":\"Probando\",\"fecha\":\"2021-06-26T16:01:02.992Z\",\"ficheros\":[\"S1_15-03-2021.pdf\",\"S2_17-03-2021.pdf\",\"S3_22-03-2021.pdf\",\"S4_24-03-2021.pdf\"],\"imagenes\":[\"peter-pan1.jpg\",\"Rainbowpuffle.png\",\"wp3087359.jpg\"],\"autorId\":3,\"id\":8}"
     },
     "Comentario": {
       "1": "{\"id\":1,\"comentario\":\"holii\",\"fecha\":\"2021-05-29T17:47:27.690Z\",\"likes\":2,\"autorId\":1,\"publicacionId\":3}",
