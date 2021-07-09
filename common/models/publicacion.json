@@ -31,20 +31,19 @@
           "type": "string"
         }
       ]
+    },
+    "likes": {
+      "type": [
+        {
+          "type": "number"
+        }
+      ]
     }
   },
   "validations": [],
   "relations": {
     "autor": {
       "type": "belongsTo",
-      "model": "Profesor",
-      "foreignKey": "",
-      "options": {
-        "nestRemoting": true
-      }
-    },
-    "likes": {
-      "type": "hasMany",
       "model": "Profesor",
       "foreignKey": "",
       "options": {

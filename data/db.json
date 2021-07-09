@@ -3,11 +3,11 @@
     "Profesor": 4,
     "Coleccion": 6,
     "Cromo": 183,
-    "Pregunta": 233,
+    "Pregunta": 234,
     "FamiliaAvatares": 51,
     "FamiliaImagenesPerfil": 11,
-    "Publicacion": 9,
-    "Comentario": 9
+    "Publicacion": 10,
+    "Comentario": 10
   },
   "models": {
     "Profesor": {
@@ -68,7 +68,8 @@
       "229": "{\"titulo\":\"Empareja\",\"tipo\":\"Emparejamiento\",\"pregunta\":\"Empareja paises con sus capitales\",\"tematica\":\"Ciudades\",\"feedbackCorrecto\":\"Correcto.\",\"feedbackIncorrecto\":\"No. A ver si viajas más.\",\"emparejamientos\":[{\"l\":\"Francia\",\"r\":\"París\"},{\"l\":\"España\",\"r\":\"Madrid\"},{\"l\":\"Italia\",\"r\":\"Roma\"},{\"l\":\"Portugal\",\"r\":\"Lisboa\"}],\"profesorId\":2,\"id\":229}",
       "230": "{\"titulo\":\"Barcelona\",\"tipo\":\"Respuesta abierta\",\"pregunta\":\"¿Qué ciudad es?\",\"tematica\":\"Ciudades\",\"imagen\":\"barcelona.jpg\",\"feedbackCorrecto\":\"Correcto.\",\"feedbackIncorrecto\":\"No. A ver si viajas más.\",\"respuestaCorrecta\":\"Barcelona\",\"profesorId\":3,\"id\":230}",
       "231": "{\"titulo\":\"Sevilla\",\"tipo\":\"Verdadero o falso\",\"pregunta\":\"Esta foto es de Barcelona\",\"tematica\":\"Ciudades\",\"imagen\":\"sevilla.jpg\",\"feedbackCorrecto\":\"Correcto.\",\"feedbackIncorrecto\":\"No. A ver si viajas más.\",\"respuestaCorrecta\":\"falso\",\"profesorId\":3,\"id\":231}",
-      "232": "{\"titulo\":\"Futbol\",\"tipo\":\"Cuatro opciones\",\"pregunta\":\"Que equipo es?\",\"tematica\":\"Deportes\",\"imagen\":\"Brescia.png\",\"feedbackCorrecto\":\"Muy bien\",\"feedbackIncorrecto\":\"Muy mal\",\"respuestaCorrecta\":\"Brescia\",\"respuestaIncorrecta1\":\"F.C Barcelona\",\"respuestaIncorrecta2\":\"Juventus\",\"respuestaIncorrecta3\":\"Benevento\",\"emparejamientos\":[],\"profesorId\":3,\"id\":232}"
+      "232": "{\"titulo\":\"Futbol\",\"tipo\":\"Cuatro opciones\",\"pregunta\":\"Que equipo es?\",\"tematica\":\"Deportes\",\"imagen\":\"Brescia.png\",\"feedbackCorrecto\":\"Muy bien\",\"feedbackIncorrecto\":\"Muy mal\",\"respuestaCorrecta\":\"Brescia\",\"respuestaIncorrecta1\":\"F.C Barcelona\",\"respuestaIncorrecta2\":\"Juventus\",\"respuestaIncorrecta3\":\"Benevento\",\"emparejamientos\":[],\"profesorId\":3,\"id\":232}",
+      "233": "{\"titulo\":\"a\",\"tipo\":\"Cuatro opciones\",\"pregunta\":\"a\",\"tematica\":\"a\",\"imagen\":null,\"feedbackCorrecto\":\"<\",\"feedbackIncorrecto\":\"a\",\"respuestaCorrecta\":\"1\",\"respuestaIncorrecta1\":\"2\",\"respuestaIncorrecta2\":\"3\",\"respuestaIncorrecta3\":\"4\",\"emparejamientos\":[],\"profesorId\":2,\"id\":233}"
     },
     "FamiliaImagenesPerfil": {
       "1": "{\"nombreFamilia\":\"Fantasmas\",\"numeroImagenes\":16,\"imagenes\":[\"g15142.png\",\"g15156.png\",\"g15172.png\",\"g15184.png\",\"g15195.png\",\"g15208.png\",\"g15222.png\",\"g15233.png\",\"g15241.png\",\"g15254.png\",\"g15269.png\",\"g15283.png\",\"g15295.png\",\"g15308.png\",\"g15321.png\",\"g15334.png\"],\"profesorId\":1,\"id\":15}",
@@ -111,18 +112,20 @@
       "50": "{\"profesorId\":1,\"nombreFamilia\":\"Roberta\",\"silueta\":\"roberta_silueta.png\",\"nombreComplemento1\":\"monstruos\",\"complemento1\":[\"roberta_monstruo1.png\",\"roberta_monstruo2.png\",\"roberta_monstruo3.png\",\"roberta_monstruo4.png\",\"roberta_monstruo5.png\"],\"nombreComplemento2\":\"pelos\",\"complemento2\":[\"roberta_pelo1.png\",\"roberta_pelo2.png\",\"roberta_pelo3.png\",\"roberta_pelo4.png\",\"roberta_pelo5.png\"],\"nombreComplemento3\":\"bocas\",\"complemento3\":[\"roberta_boca1.png\",\"roberta_boca2.png\",\"roberta_boca3.png\",\"roberta_boca4.png\",\"roberta_boca5.png\"],\"nombreComplemento4\":\"ojos\",\"complemento4\":[\"roberta_ojos1.png\",\"roberta_ojos2.png\",\"roberta_ojos3.png\",\"roberta_ojos4.png\",\"roberta_ojos5.png\"],\"id\":50}"
     },
     "Publicacion": {
-      "1": "{\"titulo\":\"PRUEBA 1 WEB\",\"publicacion\":\"Primera publicación\",\"fecha\":\"2021-05-26T20:36:08.185Z\",\"autorId\":1,\"id\":1}",
-      "2": "{\"titulo\":\"prueba 2\",\"publicacion\":\"segunda jaj\",\"fecha\":\"2021-05-26T21:06:06.782Z\",\"autorId\":1,\"id\":2}",
-      "3": "{\"titulo\":\"prueba 3\",\"publicacion\":\"3 jiji\",\"fecha\":\"2021-05-26T21:07:28.289Z\",\"autorId\":1,\"id\":3}",
-      "4": "{\"titulo\":\"titulo\",\"publicacion\":\"Experiencia\",\"fecha\":\"2021-05-27T09:08:36.300Z\",\"autorId\":2,\"id\":4}",
-      "5": "{\"titulo\":\"titulo\",\"publicacion\":\"jiji\",\"fecha\":\"2021-05-27T21:13:22.617Z\",\"autorId\":1,\"id\":5}",
-      "6": "{\"titulo\":\"string\",\"publicacion\":\"string\",\"fecha\":\"2021-06-03T17:09:11.133Z\",\"autorId\":1,\"id\":6}",
-      "7": "{\"titulo\":\"Prueba Gatusso\",\"publicacion\":\"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.\",\"fecha\":\"2021-06-20T16:41:57.979Z\",\"ficheros\":[\"acta inicial meba maig 2021.pdf\",\"avatares.json\"],\"imagenes\":[\"Captura.png\",\"chulito.JPG\"],\"autorId\":1,\"id\":7}",
-      "8": "{\"titulo\":\"Prueba IMAGEN + FICHERO\",\"publicacion\":\"Probando\",\"fecha\":\"2021-06-26T16:01:02.992Z\",\"ficheros\":[\"S1_15-03-2021.pdf\",\"S2_17-03-2021.pdf\",\"S3_22-03-2021.pdf\",\"S4_24-03-2021.pdf\"],\"imagenes\":[\"peter-pan1.jpg\",\"Rainbowpuffle.png\",\"wp3087359.jpg\"],\"autorId\":3,\"id\":8}"
+      "1": "{\"titulo\":\"PRUEBA 1 WEB\",\"publicacion\":\"Primera publicación\",\"fecha\":\"2021-05-26T20:36:08.185Z\",\"autorId\":1,\"likes\":[],\"id\":1}",
+      "2": "{\"titulo\":\"prueba 2\",\"publicacion\":\"segunda jaj\",\"fecha\":\"2021-05-26T21:06:06.782Z\",\"autorId\":1,\"likes\":[],\"id\":2}",
+      "3": "{\"titulo\":\"prueba 3\",\"publicacion\":\"3 jiji\",\"fecha\":\"2021-05-26T21:07:28.289Z\",\"autorId\":1,\"likes\":[],\"id\":3}",
+      "4": "{\"titulo\":\"titulo\",\"publicacion\":\"Experiencia\",\"fecha\":\"2021-05-27T09:08:36.300Z\",\"autorId\":2,\"likes\":[],\"id\":4}",
+      "5": "{\"titulo\":\"titulo\",\"publicacion\":\"jiji\",\"fecha\":\"2021-05-27T21:13:22.617Z\",\"autorId\":1,\"likes\":[],\"id\":5}",
+      "6": "{\"titulo\":\"string\",\"publicacion\":\"string\",\"fecha\":\"2021-06-03T17:09:11.133Z\",\"autorId\":1,\"likes\":[],\"id\":6}",
+      "7": "{\"titulo\":\"Prueba Gatusso\",\"publicacion\":\"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.\",\"fecha\":\"2021-06-20T16:41:57.979Z\",\"ficheros\":[\"acta inicial meba maig 2021.pdf\",\"avatares.json\"],\"imagenes\":[\"Captura.png\",\"chulito.JPG\"],\"likes\":[2],\"autorId\":1,\"id\":7}",
+      "8": "{\"titulo\":\"Prueba IMAGEN + FICHERO\",\"publicacion\":\"Probando\",\"fecha\":\"2021-06-26T16:01:02.992Z\",\"ficheros\":[\"S1_15-03-2021.pdf\",\"S2_17-03-2021.pdf\",\"S3_22-03-2021.pdf\",\"S4_24-03-2021.pdf\"],\"imagenes\":[\"peter-pan1.jpg\",\"Rainbowpuffle.png\",\"wp3087359.jpg\"],\"likes\":[],\"autorId\":3,\"id\":8}",
+      "9": "{\"titulo\":\"prueba review\",\"publicacion\":\"erkfgsjrvsdkjv rbevrfsdbjerfd b ervfdscbvrsdbv arsdgvaew sdvcASZDljx fdvkdsxzkvh sfdvsdxzcasv\",\"fecha\":\"2021-07-09T22:49:48.680Z\",\"likes\":[2],\"autorId\":2,\"id\":9}"
     },
     "Comentario": {
-      "1": "{\"id\":1,\"comentario\":\"holii\",\"fecha\":\"2021-05-29T17:47:27.690Z\",\"likes\":2,\"autorId\":1,\"publicacionId\":3}",
-      "2": "{\"comentario\":\"hola\",\"fecha\":\"2021-05-29T17:58:31.109Z\",\"likes\":0,\"autorId\":2,\"publicacionId\":4,\"id\":2}"
+      "1": "{\"id\":1,\"comentario\":\"holii\",\"fecha\":\"2021-05-29T17:47:27.690Z\",\"autorId\":1,\"publicacionId\":3}",
+      "2": "{\"comentario\":\"hola\",\"fecha\":\"2021-05-29T17:58:31.109Z\",\"autorId\":2,\"publicacionId\":4,\"id\":2}",
+      "9": "{\"comentario\":\"keloke madafaka\",\"fecha\":\"2021-07-09T22:50:04.974Z\",\"autorId\":2,\"publicacionId\":9,\"id\":9}"
     }
   }
 }
