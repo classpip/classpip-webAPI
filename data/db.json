@@ -1,6 +1,6 @@
 {
   "ids": {
-    "Profesor": 4,
+    "Profesor": 8,
     "Coleccion": 6,
     "Cromo": 183,
     "Pregunta": 234,
@@ -13,7 +13,11 @@
     "Profesor": {
       "1": "{\"id\":1,\"nombre\":\"Miguel\",\"primerApellido\":\"Valero\",\"segundoApellido\":\"Garcia\",\"imagenPerfil\":null,\"identificador\":\"12775\",\"username\":\"miguel\",\"password\":\"$2a$10$892PUHLhFl14G3BDKRSn/.oFY2z18LCbmn1TLjuD.hf5Qg7LUSUJy\",\"email\":\"miguel.valero@upc.edu\"}",
       "2": "{\"id\":2,\"nombre\":\"Ivan\",\"primerApellido\":\"Requena\",\"segundoApellido\":\"Garcia\",\"imagenPerfil\":null,\"identificador\":\"45179\",\"username\":\"ivan\",\"password\":\"$2a$10$1rujpvHRa7TK/OBBqPBn5.xP87BM7el5uTGlYSoNb0gMtQZ.8xype\",\"email\":\"ivan.req@gmail.com\"}",
-      "3": "{\"id\":3,\"nombre\":\"Jordi\",\"primerApellido\":\"Salvador\",\"segundoApellido\":\"Carreté\",\"imagenPerfil\":null,\"identificador\":\"38811\",\"username\":\"jota\",\"password\":\"$2a$10$FUsky4BrA3ha/63YfLRdGeN2umDAd2Smq9H81DUcl/6VqYAhEjzlW\",\"email\":\"jordisalvador98@gmail.com\"}"
+      "3": "{\"id\":3,\"nombre\":\"Jordi\",\"primerApellido\":\"Salvador\",\"segundoApellido\":\"Carreté\",\"imagenPerfil\":null,\"identificador\":\"38811\",\"username\":\"jota\",\"password\":\"$2a$10$FUsky4BrA3ha/63YfLRdGeN2umDAd2Smq9H81DUcl/6VqYAhEjzlW\",\"email\":\"jordisalvador98@gmail.com\"}",
+      "4": "{\"nombre\":\"Carlos\",\"primerApellido\":\"Vazquez\",\"segundoApellido\":\"Crespo\",\"imagenPerfil\":null,\"identificador\":\"76515\",\"username\":\"chuli\",\"password\":\"$2a$10$0E/OGAdNtpO4HCmjSHYheOTDR39SJ7opHDi9qME9nSQPr8ht93zCi\",\"email\":\"carlos@carlos.com\",\"id\":4}",
+      "5": "{\"nombre\":\"Mario\",\"primerApellido\":\"Sanchez\",\"segundoApellido\":\"Boto\",\"imagenPerfil\":null,\"identificador\":\"81962\",\"username\":\"mario\",\"password\":\"$2a$10$MCLys7hI4gx6R1qvLdw/FeOGRIfD17yCmKdnoEPzAcL1m3jBcDP5S\",\"email\":\"mario@mario.com\",\"id\":5}",
+      "6": "{\"nombre\":\"Leo\",\"primerApellido\":\"Messi\",\"segundoApellido\":\"Cuccitini\",\"imagenPerfil\":null,\"identificador\":\"01132\",\"username\":\"messi\",\"password\":\"$2a$10$AvoLVQdUArq6R.umaiLEJu4YF8gJdudkho6rIBEvDnfnrNB27CRAK\",\"email\":\"messi@messi.com\",\"id\":6}",
+      "7": "{\"nombre\":\"Roc\",\"primerApellido\":\"Messaguer\",\"segundoApellido\":\"Pallarés\",\"imagenPerfil\":null,\"identificador\":\"18032\",\"username\":\"roc\",\"password\":\"$2a$10$uv9WHqyBzOMvhgTNAh1.QOHRgN.DFo88YUQO2dkHz.an1RxvcfDeW\",\"email\":\"roc@roc.com\",\"id\":7}"
     },
     "Coleccion": {
       "1": "{\"nombre\":\"Compositores\",\"imagenColeccion\":\"compositores.png\",\"dosCaras\":true,\"profesorId\":1,\"id\":1,\"recomendacion\":\"¡Usé esta colección para enseñarles los compositores más importantes de la histroia a mis alumnos y los resultados fuero geniales!\"}",
