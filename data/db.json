@@ -1,8 +1,8 @@
 {
   "ids": {
     "Profesor": 8,
-    "Coleccion": 6,
-    "Cromo": 183,
+    "Coleccion": 7,
+    "Cromo": 192,
     "Pregunta": 234,
     "FamiliaAvatares": 51,
     "FamiliaImagenesPerfil": 11,
@@ -22,7 +22,7 @@
     "Coleccion": {
       "1": "{\"nombre\":\"Compositores\",\"imagenColeccion\":\"compositores.png\",\"dosCaras\":true,\"profesorId\":1,\"id\":1,\"recomendacion\":\"¡Usé esta colección para enseñarles los compositores más importantes de la histroia a mis alumnos y los resultados fuero geniales!\"}",
       "2": "{\"nombre\":\"Comandos Linux\",\"imagenColeccion\":\"linux.jpg\",\"dosCaras\":true,\"profesorId\":1,\"id\":2,\"recomendacion\":\"Después de muchos cuatrimestres con muy pocos aprobados en el mínimo de Linux, gracias a esta colección mis alumnos empezaron a mejorar sus notas\"}",
-      "3": "{\"nombre\":\"Jugadores de Futbol\",\"imagenColeccion\":\"images.jpg\",\"dosCaras\":true,\"profesorId\":3,\"id\":5}"
+      "6": "{\"nombre\":\"Jugadores de Futbol\",\"imagenColeccion\":\"images.jpg\",\"dosCaras\":true,\"recomendacion\":null,\"profesorId\":3,\"id\":6}"
     },
     "Cromo": {
       "137": "{\"nombre\":\"bach\",\"imagenDelante\":\"bach_a.png\",\"imagenDetras\":\"parte7.png\",\"probabilidad\":\"Muy Baja\",\"nivel\":\"Diamante\",\"coleccionId\":1,\"id\":137}",
@@ -44,15 +44,15 @@
       "153": "{\"nombre\":\"grep\",\"imagenDelante\":\"grep_a.png\",\"imagenDetras\":\"grep_b.png\",\"probabilidad\":\"Muy Alta\",\"nivel\":\"Bronce\",\"coleccionId\":2,\"id\":153}",
       "154": "{\"nombre\":\"sed\",\"imagenDelante\":\"sed_a.png\",\"imagenDetras\":\"sed_b.png\",\"probabilidad\":\"Muy Alta\",\"nivel\":\"Bronce\",\"coleccionId\":2,\"id\":154}",
       "155": "{\"nombre\":\"chmod\",\"imagenDelante\":\"chmod_a.png\",\"imagenDetras\":\"chmod_b.png\",\"probabilidad\":\"Muy Alta\",\"nivel\":\"Bronce\",\"coleccionId\":2,\"id\":155}",
-      "156": "{\"nombre\":\"Mbappé\",\"imagenDelante\":\"mbappe.jpg\",\"imagenDetras\":\"psg.jpg\",\"probabilidad\":\"BAJA\",\"nivel\":\"ORO\",\"coleccionId\":5,\"id\":174}",
-      "157": "{\"nombre\":\"Benzema\",\"imagenDelante\":\"benzema.jpg\",\"imagenDetras\":\"madrid.png\",\"probabilidad\":\"ALTA\",\"nivel\":\"PLATA\",\"coleccionId\":5,\"id\":175}",
-      "158": "{\"nombre\":\"De Bruyne\",\"imagenDelante\":\"debruyne.jpg\",\"imagenDetras\":\"city.jpg\",\"probabilidad\":\"ALTA\",\"nivel\":\"PLATA\",\"coleccionId\":5,\"id\":176}",
-      "159": "{\"nombre\":\"Lewandowski\",\"imagenDelante\":\"lewandowski.jpg\",\"imagenDetras\":\"bayern.png\",\"probabilidad\":\"MUY ALTA\",\"nivel\":\"BRONCE\",\"coleccionId\":5,\"id\":177}",
-      "160": "{\"nombre\":\"Messi\",\"imagenDelante\":\"messi.jpg\",\"imagenDetras\":\"fcb.png\",\"probabilidad\":\"MUY BAJA\",\"nivel\":\"DIAMANTE\",\"coleccionId\":5,\"id\":178}",
-      "161": "{\"nombre\":\"Pogba\",\"imagenDelante\":\"pogba.jpg\",\"imagenDetras\":\"united.png\",\"probabilidad\":\"ALTA\",\"nivel\":\"PLATA\",\"coleccionId\":5,\"id\":179}",
-      "162": "{\"nombre\":\"Reus\",\"imagenDelante\":\"reus.jpg\",\"imagenDetras\":\"bvb.png\",\"probabilidad\":\"MUY ALTA\",\"nivel\":\"BRONCE\",\"coleccionId\":5,\"id\":180}",
-      "163": "{\"nombre\":\"Salah\",\"imagenDelante\":\"salah.jpg\",\"imagenDetras\":\"liverpool.png\",\"probabilidad\":\"BAJA\",\"nivel\":\"ORO\",\"coleccionId\":5,\"id\":181}",
-      "164": "{\"nombre\":\"Cristiano Ronaldo\",\"imagenDelante\":\"cr7.jpg\",\"imagenDetras\":\"juve.png\",\"probabilidad\":\"MUY BAJA\",\"nivel\":\"DIAMANTE\",\"coleccionId\":5,\"id\":182}"
+      "183": "{\"nombre\":\"Mbappe\",\"imagenDelante\":\"mbappe.jpg\",\"imagenDetras\":\"psg.jpg\",\"probabilidad\":\"Baja\",\"nivel\":\"Oro\",\"coleccionId\":6,\"id\":183}",
+      "184": "{\"nombre\":\"Reus\",\"imagenDelante\":\"reus.jpg\",\"imagenDetras\":\"bvb.png\",\"probabilidad\":\"Muy Alta\",\"nivel\":\"Bronce\",\"coleccionId\":6,\"id\":184}",
+      "185": "{\"nombre\":\"Salah\",\"imagenDelante\":\"salah.jpg\",\"imagenDetras\":\"liverpool.png\",\"probabilidad\":\"Baja\",\"nivel\":\"Oro\",\"coleccionId\":6,\"id\":185}",
+      "186": "{\"nombre\":\"Lewandowski\",\"imagenDelante\":\"lewandowski.jpg\",\"imagenDetras\":\"bayern.png\",\"probabilidad\":\"Muy Alta\",\"nivel\":\"Bronce\",\"coleccionId\":6,\"id\":186}",
+      "187": "{\"nombre\":\"Cristiano Ronaldo\",\"imagenDelante\":\"cr7.jpg\",\"imagenDetras\":\"juve.png\",\"probabilidad\":\"Muy Baja\",\"nivel\":\"Diamante\",\"coleccionId\":6,\"id\":187}",
+      "188": "{\"nombre\":\"Pogba\",\"imagenDelante\":\"pogba.jpg\",\"imagenDetras\":\"united.png\",\"probabilidad\":\"Alta\",\"nivel\":\"Plata\",\"coleccionId\":6,\"id\":188}",
+      "189": "{\"nombre\":\"Messi\",\"imagenDelante\":\"messi.jpg\",\"imagenDetras\":\"fcb.png\",\"probabilidad\":\"Muy Baja\",\"nivel\":\"Diamante\",\"coleccionId\":6,\"id\":189}",
+      "190": "{\"nombre\":\"Benzema\",\"imagenDelante\":\"benzema.jpg\",\"imagenDetras\":\"madrid.png\",\"probabilidad\":\"Alta\",\"nivel\":\"Plata\",\"coleccionId\":6,\"id\":190}",
+      "191": "{\"nombre\":\"De Bruyne\",\"imagenDelante\":\"debruyne.jpg\",\"imagenDetras\":\"city.jpg\",\"probabilidad\":\"Alta\",\"nivel\":\"Plata\",\"coleccionId\":6,\"id\":191}"
     },
     "Pregunta": {
       "2": "{\"titulo\":\"Sumas\",\"tipo\":\"Cuatro opciones\",\"pregunta\":\"¿Cual es el resultado de 5 + 7?\",\"tematica\":\"Mates\",\"respuestaCorrecta\":\"12\",\"respuestaIncorrecta1\":\"13\",\"respuestaIncorrecta2\":\"11\",\"respuestaIncorrecta3\":\"15\",\"feedbackCorrecto\":\"Muy bien\",\"feedbackIncorrecto\":\"Ven a verme\",\"profesorId\":1,\"id\":2}",
